@@ -1,0 +1,45 @@
+name: "Storage Layout"
+
+env:
+  FOUNDRY_PROFILE: "ci"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "main"
+      - "develop"
+
+jobs:
+  check_storage_layout:
+    name: Check storage layout
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        contract:
+          - contracts/swap/Broker.sol:Broker
+          - contracts/swap/BiPoolManager.sol:BiPoolManager
+          - contracts/swap/Reserve.sol:Reserve
+          - contracts/oracles/BreakerBox.sol:BreakerBox
+          - contracts/tokens/StableTokenV2.sol:StableTokenV2
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Install Foundry
+        uses: foundry-rs/foundry-toolchain@v1.2.0
+        with:
+          version: "nightly"
+      - name: "Install Node.js"
+        uses: "actions/setup-node@v4"
+        with:
+          cache: "yarn"
+          node-version: "20"
+
+      - name: "Install the Node.js dependencies"
+        run: "yarn install --immutable"
+      - name: Check storage layout
+        uses: Rubilmax/foundry-storage-check@v3.9
+        with:
+          contract: ${{ matrix.contract }}
