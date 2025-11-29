@@ -29,7 +29,7 @@ contract ActivePool is IActivePool {
     address public immutable borrowerOperationsAddress;
     address public immutable troveManagerAddress;
     address public immutable defaultPoolAddress;
-
+    // systemParams are upgradable yet its immutable
     ISystemParams public immutable systemParams;
     IBoldToken public immutable boldToken;
 

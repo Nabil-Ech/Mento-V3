@@ -301,7 +301,7 @@ contract BorrowerOperations is LiquityBase, AddRemoveManagers, IBorrowerOperatio
         vars.troveManager = troveManager;
         vars.activePool = activePool;
         vars.boldToken = boldToken;
-
+        // does is check if orqcle is live like original?
         vars.price = priceFeed.fetchPrice();
 
         // --- Checks ---
@@ -840,6 +840,10 @@ contract BorrowerOperations is LiquityBase, AddRemoveManagers, IBorrowerOperatio
     ) external {
         _requireIsNotShutDown();
         _requireNonExistentInterestBatchManager(msg.sender);
+        /* 
+        no check for valid IR, maybe a potentila vunerability
+        check for original report if there was a finding about that
+        */
         (bool success, bytes memory data) = batchManagerOperations.delegatecall(
             abi.encodeWithSignature(
                 "registerBatchManager(uint128,uint128,uint128,uint128,uint128)",
@@ -1339,7 +1343,7 @@ contract BorrowerOperations is LiquityBase, AddRemoveManagers, IBorrowerOperatio
             revert InterestNotInRange();
         }
     }
-
+    // _requireBatchInterestRateChangePeriodPassed is not present 
     function _requireDelegateInterestRateChangePeriodPassed(
         uint256 _lastInterestRateAdjTime,
         uint256 _minInterestRateChangePeriod

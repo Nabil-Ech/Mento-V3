@@ -27,7 +27,7 @@ import "./Dependencies/LiquityBaseInit.sol";
  *
  * A deposit that has experienced a series of liquidations is termed a "compounded deposit": each liquidation depletes the deposit,
  * multiplying it by some factor in range ]0,1[
- *
+ * Does each liquidation depletes he original or current deposite ? 
  *
  * --- IMPLEMENTATION ---
  *
@@ -36,6 +36,7 @@ import "./Dependencies/LiquityBaseInit.sol";
  * When a liquidation occurs, rather than updating each depositor's deposit and Coll gain, we simply update two state variables:
  * a product P, and a sum S.
  *
+ * keep an eye on new depositors, can they get more share? deposite after liquidation ?
  * A mathematical manipulation allows us to factor out the initial deposit, and accurately track all depositors' compounded deposits
  * and accumulated Coll gains over time, as liquidations occur, using just these two variables P and S. When depositors join the
  * Stability Pool, they get a snapshot of the latest P and S: P_t and S_t, respectively.
