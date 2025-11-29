@@ -1,0 +1,1328 @@
+M	README.md
+R079	.github/workflows/contracts-tests.yml	bold/.github/workflows/contracts-tests.yml
+A	bold/.github/workflows/testnet-deployment.yml
+R100	.gitignore	bold/.gitignore
+R071	.gitmodules	bold/.gitmodules
+R100	.node-version	bold/.node-version
+R100	.tool-versions	bold/.tool-versions
+R100	.vscode/extensions.json	bold/.vscode/extensions.json
+R100	.vscode/settings.json	bold/.vscode/settings.json
+R100	INSTRUCTIONS.md	bold/INSTRUCTIONS.md
+R100	LICENSE	bold/LICENSE
+A	bold/README.md
+R100	contracts/.env.template	bold/contracts/.env.template
+R100	contracts/.gitignore	bold/contracts/.gitignore
+R100	contracts/.solcover.js	bold/contracts/.solcover.js
+R100	contracts/LICENSE	bold/contracts/LICENSE
+R100	contracts/README.md	bold/contracts/README.md
+R100	contracts/abi/.gitignore	bold/contracts/abi/.gitignore
+R100	contracts/abi/README.md	bold/contracts/abi/README.md
+R096	contracts/addresses/1.json	bold/contracts/addresses/1.json
+R096	contracts/addresses/11155111.json	bold/contracts/addresses/11155111.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/1/run-1737625330.json	bold/contracts/broadcast/DeployLiquity2.s.sol/1/run-1737625330.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/1/run-1747245606.json	bold/contracts/broadcast/DeployLiquity2.s.sol/1/run-1747245606.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/1/run-1747597079.json	bold/contracts/broadcast/DeployLiquity2.s.sol/1/run-1747597079.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/1/run-1747648132.json	bold/contracts/broadcast/DeployLiquity2.s.sol/1/run-1747648132.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/1/run-latest.json	bold/contracts/broadcast/DeployLiquity2.s.sol/1/run-latest.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1725456290.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1725456290.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1726241571.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1726241571.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1729135191.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1729135191.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1730836694.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1730836694.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1731085705.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1731085705.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1732271913.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1732271913.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1732284692.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1732284692.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1733695499.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1733695499.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1734132531.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1734132531.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1734207441.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1734207441.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1734652406.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1734652406.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1737376313.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1737376313.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1737381511.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1737381511.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1747117088.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-1747117088.json
+R100	contracts/broadcast/DeployLiquity2.s.sol/11155111/run-latest.json	bold/contracts/broadcast/DeployLiquity2.s.sol/11155111/run-latest.json
+R100	contracts/broadcast/DeployOnlyExchangeHelpers.s.sol/11155111/run-1731952978.json	bold/contracts/broadcast/DeployOnlyExchangeHelpers.s.sol/11155111/run-1731952978.json
+R100	contracts/broadcast/DeployOnlyExchangeHelpers.s.sol/11155111/run-latest.json	bold/contracts/broadcast/DeployOnlyExchangeHelpers.s.sol/11155111/run-latest.json
+R100	contracts/certora/confs/BO_equivalence_partial.conf	bold/contracts/certora/confs/BO_equivalence_partial.conf
+R100	contracts/certora/confs/BatchManagementFee.conf	bold/contracts/certora/confs/BatchManagementFee.conf
+R100	contracts/certora/confs/BatchUpfrontFee.conf	bold/contracts/certora/confs/BatchUpfrontFee.conf
+R100	contracts/certora/confs/BorrowerOperations.conf	bold/contracts/certora/confs/BorrowerOperations.conf
+R100	contracts/certora/confs/SortedTroves.conf	bold/contracts/certora/confs/SortedTroves.conf
+R100	contracts/certora/confs/SumOfTroves.conf	bold/contracts/certora/confs/SumOfTroves.conf
+R100	contracts/certora/confs/TroveEquiv.conf	bold/contracts/certora/confs/TroveEquiv.conf
+R100	contracts/certora/confs/TroveEquiv_CollDebt_Adjust.conf	bold/contracts/certora/confs/TroveEquiv_CollDebt_Adjust.conf
+R100	contracts/certora/confs/TroveEquiv_Redeem.conf	bold/contracts/certora/confs/TroveEquiv_Redeem.conf
+R100	contracts/certora/harnesses/ERC20Like/DummyERC20A.sol	bold/contracts/certora/harnesses/ERC20Like/DummyERC20A.sol
+R100	contracts/certora/harnesses/ERC20Like/DummyERC20B.sol	bold/contracts/certora/harnesses/ERC20Like/DummyERC20B.sol
+R100	contracts/certora/harnesses/ERC20Like/DummyWeth.sol	bold/contracts/certora/harnesses/ERC20Like/DummyWeth.sol
+R100	contracts/certora/harnesses/TroveManagerHarness.sol	bold/contracts/certora/harnesses/TroveManagerHarness.sol
+R100	contracts/certora/harnesses/Utilities.sol	bold/contracts/certora/harnesses/Utilities.sol
+R100	contracts/certora/specs/BO_equivalence_partial.spec	bold/contracts/certora/specs/BO_equivalence_partial.spec
+R100	contracts/certora/specs/BorrowerOperations.spec	bold/contracts/certora/specs/BorrowerOperations.spec
+R100	contracts/certora/specs/Common.spec	bold/contracts/certora/specs/Common.spec
+R100	contracts/certora/specs/DoubleLinkedList.spec	bold/contracts/certora/specs/DoubleLinkedList.spec
+R100	contracts/certora/specs/ERC20/WETHcvl.spec	bold/contracts/certora/specs/ERC20/WETHcvl.spec
+R100	contracts/certora/specs/ERC20/erc20cvl.spec	bold/contracts/certora/specs/ERC20/erc20cvl.spec
+R100	contracts/certora/specs/ERC20/erc20dispatched.spec	bold/contracts/certora/specs/ERC20/erc20dispatched.spec
+R100	contracts/certora/specs/ERC721/erc721.spec	bold/contracts/certora/specs/ERC721/erc721.spec
+R100	contracts/certora/specs/Equivalences.spec	bold/contracts/certora/specs/Equivalences.spec
+R100	contracts/certora/specs/PriceAggregators/chainlink.spec	bold/contracts/certora/specs/PriceAggregators/chainlink.spec
+R100	contracts/certora/specs/PriceAggregators/tellor.spec	bold/contracts/certora/specs/PriceAggregators/tellor.spec
+R100	contracts/certora/specs/SortedTrovesStorage.spec	bold/contracts/certora/specs/SortedTrovesStorage.spec
+R100	contracts/certora/specs/TroveEquiv.spec	bold/contracts/certora/specs/TroveEquiv.spec
+R100	contracts/certora/specs/TroveEquiv_CollDebt_Adjust.spec	bold/contracts/certora/specs/TroveEquiv_CollDebt_Adjust.spec
+R100	contracts/certora/specs/TroveEquiv_Redeem.spec	bold/contracts/certora/specs/TroveEquiv_Redeem.spec
+R100	contracts/certora/specs/setup/builtin_assertions.spec	bold/contracts/certora/specs/setup/builtin_assertions.spec
+R100	contracts/certora/specs/setup/sanity.spec	bold/contracts/certora/specs/setup/sanity.spec
+R100	contracts/certora/specs/setup/sanity_with_erc20cvl.spec	bold/contracts/certora/specs/setup/sanity_with_erc20cvl.spec
+R100	contracts/certora/specs/setup/sanity_with_erc20cvl_and_erc721.spec	bold/contracts/certora/specs/setup/sanity_with_erc20cvl_and_erc721.spec
+R100	contracts/certora/specs/setup/sanity_with_erc20dispatched.spec	bold/contracts/certora/specs/setup/sanity_with_erc20dispatched.spec
+R100	contracts/deploy	bold/contracts/deploy
+R100	contracts/fork	bold/contracts/fork
+A	bold/contracts/foundry.lock
+R081	contracts/foundry.toml	bold/contracts/foundry.toml
+R100	contracts/fuzz	bold/contracts/fuzz
+R100	contracts/hardhat.config.js	bold/contracts/hardhat.config.js
+R100	contracts/hardhatAccountsList2k.js	bold/contracts/hardhatAccountsList2k.js
+R100	contracts/package.json	bold/contracts/package.json
+A	bold/contracts/remappings.txt
+R100	contracts/requirements.txt	bold/contracts/requirements.txt
+A	bold/contracts/script/DeployLiquity2.s.sol
+R100	contracts/slither.config.json	bold/contracts/slither.config.json
+R100	contracts/sourcify-chains.json	bold/contracts/sourcify-chains.json
+R100	contracts/sourcify-config.js	bold/contracts/sourcify-config.js
+R097	contracts/src/ActivePool.sol	bold/contracts/src/ActivePool.sol
+R062	contracts/src/AddressesRegistry.sol	bold/contracts/src/AddressesRegistry.sol
+A	bold/contracts/src/BatchManagerOperations.sol
+R075	contracts/src/BorrowerOperations.sol	bold/contracts/src/BorrowerOperations.sol
+R100	contracts/src/CollSurplusPool.sol	bold/contracts/src/CollSurplusPool.sol
+R094	contracts/src/CollateralRegistry.sol	bold/contracts/src/CollateralRegistry.sol
+R100	contracts/src/DefaultPool.sol	bold/contracts/src/DefaultPool.sol
+R100	contracts/src/Dependencies/AddRemoveManagers.sol	bold/contracts/src/Dependencies/AddRemoveManagers.sol
+R100	contracts/src/Dependencies/AggregatorV3Interface.sol	bold/contracts/src/Dependencies/AggregatorV3Interface.sol
+A	bold/contracts/src/Dependencies/Constants.sol
+R100	contracts/src/Dependencies/LiquityBase.sol	bold/contracts/src/Dependencies/LiquityBase.sol
+A	bold/contracts/src/Dependencies/LiquityBaseInit.sol
+R100	contracts/src/Dependencies/LiquityMath.sol	bold/contracts/src/Dependencies/LiquityMath.sol
+R100	contracts/src/Dependencies/Ownable.sol	bold/contracts/src/Dependencies/Ownable.sol
+R083	contracts/src/GasPool.sol	bold/contracts/src/GasPool.sol
+R095	contracts/src/HintHelpers.sol	bold/contracts/src/HintHelpers.sol
+R100	contracts/src/Interfaces/IActivePool.sol	bold/contracts/src/Interfaces/IActivePool.sol
+R100	contracts/src/Interfaces/IAddRemoveManagers.sol	bold/contracts/src/Interfaces/IAddRemoveManagers.sol
+R085	contracts/src/Interfaces/IAddressesRegistry.sol	bold/contracts/src/Interfaces/IAddressesRegistry.sol
+A	bold/contracts/src/Interfaces/IBatchManagerOperations.sol
+R100	contracts/src/Interfaces/IBoldRewardsReceiver.sol	bold/contracts/src/Interfaces/IBoldRewardsReceiver.sol
+R100	contracts/src/Interfaces/IBoldToken.sol	bold/contracts/src/Interfaces/IBoldToken.sol
+R099	contracts/src/Interfaces/IBorrowerOperations.sol	bold/contracts/src/Interfaces/IBorrowerOperations.sol
+R100	contracts/src/Interfaces/ICollSurplusPool.sol	bold/contracts/src/Interfaces/ICollSurplusPool.sol
+R100	contracts/src/Interfaces/ICollateralRegistry.sol	bold/contracts/src/Interfaces/ICollateralRegistry.sol
+R100	contracts/src/Interfaces/ICommunityIssuance.sol	bold/contracts/src/Interfaces/ICommunityIssuance.sol
+R100	contracts/src/Interfaces/IDefaultPool.sol	bold/contracts/src/Interfaces/IDefaultPool.sol
+A	bold/contracts/src/Interfaces/IFPMMFactory.sol
+R100	contracts/src/Interfaces/IHintHelpers.sol	bold/contracts/src/Interfaces/IHintHelpers.sol
+R100	contracts/src/Interfaces/IInterestRouter.sol	bold/contracts/src/Interfaces/IInterestRouter.sol
+R100	contracts/src/Interfaces/ILQTYStaking.sol	bold/contracts/src/Interfaces/ILQTYStaking.sol
+R100	contracts/src/Interfaces/ILQTYToken.sol	bold/contracts/src/Interfaces/ILQTYToken.sol
+R100	contracts/src/Interfaces/ILiquityBase.sol	bold/contracts/src/Interfaces/ILiquityBase.sol
+R100	contracts/src/Interfaces/IMultiTroveGetter.sol	bold/contracts/src/Interfaces/IMultiTroveGetter.sol
+A	bold/contracts/src/Interfaces/IOracleAdapter.sol
+R081	contracts/test/Interfaces/LiquityV1/IPriceFeedV1.sol	bold/contracts/src/Interfaces/IPriceFeed.sol
+R100	contracts/src/Interfaces/ISortedTroves.sol	bold/contracts/src/Interfaces/ISortedTroves.sol
+R087	contracts/src/Interfaces/IStabilityPool.sol	bold/contracts/src/Interfaces/IStabilityPool.sol
+R100	contracts/src/Interfaces/IStabilityPoolEvents.sol	bold/contracts/src/Interfaces/IStabilityPoolEvents.sol
+A	bold/contracts/src/Interfaces/IStableTokenV3.sol
+A	bold/contracts/src/Interfaces/ISystemParams.sol
+R100	contracts/src/Interfaces/ITroveEvents.sol	bold/contracts/src/Interfaces/ITroveEvents.sol
+R100	contracts/src/Interfaces/ITroveManager.sol	bold/contracts/src/Interfaces/ITroveManager.sol
+R100	contracts/src/Interfaces/ITroveNFT.sol	bold/contracts/src/Interfaces/ITroveNFT.sol
+R100	contracts/src/Interfaces/IWETH.sol	bold/contracts/src/Interfaces/IWETH.sol
+R099	contracts/src/MultiTroveGetter.sol	bold/contracts/src/MultiTroveGetter.sol
+R100	contracts/src/NFTMetadata/MetadataNFT.sol	bold/contracts/src/NFTMetadata/MetadataNFT.sol
+R100	contracts/src/NFTMetadata/utils/FixedAssets.sol	bold/contracts/src/NFTMetadata/utils/FixedAssets.sol
+R100	contracts/src/NFTMetadata/utils/JSON.sol	bold/contracts/src/NFTMetadata/utils/JSON.sol
+R100	contracts/src/NFTMetadata/utils/SVG.sol	bold/contracts/src/NFTMetadata/utils/SVG.sol
+R100	contracts/src/NFTMetadata/utils/Utils.sol	bold/contracts/src/NFTMetadata/utils/Utils.sol
+R100	contracts/src/NFTMetadata/utils/baseSVG.sol	bold/contracts/src/NFTMetadata/utils/baseSVG.sol
+R100	contracts/src/NFTMetadata/utils/bauhaus.sol	bold/contracts/src/NFTMetadata/utils/bauhaus.sol
+A	bold/contracts/src/PriceFeeds/FXPriceFeed.sol
+R100	contracts/src/SortedTroves.sol	bold/contracts/src/SortedTroves.sol
+R088	contracts/src/StabilityPool.sol	bold/contracts/src/StabilityPool.sol
+A	bold/contracts/src/SystemParams.sol
+R097	contracts/src/TroveManager.sol	bold/contracts/src/TroveManager.sol
+R098	contracts/src/TroveNFT.sol	bold/contracts/src/TroveNFT.sol
+R100	contracts/src/Types/BatchId.sol	bold/contracts/src/Types/BatchId.sol
+R100	contracts/src/Types/LatestBatchData.sol	bold/contracts/src/Types/LatestBatchData.sol
+R100	contracts/src/Types/LatestTroveData.sol	bold/contracts/src/Types/LatestTroveData.sol
+R100	contracts/src/Types/TroveChange.sol	bold/contracts/src/Types/TroveChange.sol
+R100	contracts/src/Types/TroveId.sol	bold/contracts/src/Types/TroveId.sol
+R100	contracts/test-js/AccessControlTest.js	bold/contracts/test-js/AccessControlTest.js
+R100	contracts/test-js/BorrowerOperationsTest.js	bold/contracts/test-js/BorrowerOperationsTest.js
+R100	contracts/test-js/CollSurplusPool.js	bold/contracts/test-js/CollSurplusPool.js
+R100	contracts/test-js/ConnectContractsTest.js	bold/contracts/test-js/ConnectContractsTest.js
+R100	contracts/test-js/FeeArithmeticTest.js	bold/contracts/test-js/FeeArithmeticTest.js
+R100	contracts/test-js/GasCompensationTest.js	bold/contracts/test-js/GasCompensationTest.js
+R100	contracts/test-js/HintHelpers_getApproxHintTest.js	bold/contracts/test-js/HintHelpers_getApproxHintTest.js
+R100	contracts/test-js/LiquityMathTest.js	bold/contracts/test-js/LiquityMathTest.js
+R100	contracts/test-js/OwnershipTest.js	bold/contracts/test-js/OwnershipTest.js
+R100	contracts/test-js/PoolsTest.js	bold/contracts/test-js/PoolsTest.js
+R100	contracts/test-js/SP_P_TruncationTest.js	bold/contracts/test-js/SP_P_TruncationTest.js
+R100	contracts/test-js/SortedTrovesTest.js	bold/contracts/test-js/SortedTrovesTest.js
+R100	contracts/test-js/StabilityPoolTest.js	bold/contracts/test-js/StabilityPoolTest.js
+R100	contracts/test-js/StabilityPool_SPWithdrawalTest.js	bold/contracts/test-js/StabilityPool_SPWithdrawalTest.js
+R100	contracts/test-js/TroveManagerTest.js	bold/contracts/test-js/TroveManagerTest.js
+R100	contracts/test-js/TroveManager_LiquidationRewardsTest.js	bold/contracts/test-js/TroveManager_LiquidationRewardsTest.js
+R100	contracts/test-js/stakeDeclineTest.js	bold/contracts/test-js/stakeDeclineTest.js
+R100	contracts/test/.gitignore	bold/contracts/test/.gitignore
+R099	contracts/test/AnchoredInvariantsTest.t.sol	bold/contracts/test/AnchoredInvariantsTest.t.sol
+A	bold/contracts/test/AnchoredSPInvariantsTest.t.sol
+R100	contracts/test/BoldToken.t.sol	bold/contracts/test/BoldToken.t.sol
+A	bold/contracts/test/FXPriceFeed.t.sol
+R100	contracts/test/HintHelpers.t.sol	bold/contracts/test/HintHelpers.t.sol
+R100	contracts/test/Interfaces/Curve/ICurveStableSwapFactoryNG.sol	bold/contracts/test/Interfaces/Curve/ICurveStableSwapFactoryNG.sol
+R100	contracts/test/Interfaces/Curve/ICurveStableSwapNG.sol	bold/contracts/test/Interfaces/Curve/ICurveStableSwapNG.sol
+R100	contracts/test/Interfaces/Curve/ILiquidityGaugeV6.sol	bold/contracts/test/Interfaces/Curve/ILiquidityGaugeV6.sol
+R100	contracts/test/Interfaces/LiquityV1/IBorrowerOperationsV1.sol	bold/contracts/test/Interfaces/LiquityV1/IBorrowerOperationsV1.sol
+R100	contracts/test/Interfaces/LiquityV1/ISortedTrovesV1.sol	bold/contracts/test/Interfaces/LiquityV1/ISortedTrovesV1.sol
+R100	contracts/test/Interfaces/LiquityV1/ITroveManagerV1.sol	bold/contracts/test/Interfaces/LiquityV1/ITroveManagerV1.sol
+R099	contracts/test/Invariants.t.sol	bold/contracts/test/Invariants.t.sol
+R096	contracts/test/SPInvariants.t.sol	bold/contracts/test/SPInvariants.t.sol
+R099	contracts/test/SortedTroves.t.sol	bold/contracts/test/SortedTroves.t.sol
+R100	contracts/test/TestContracts/Accounts.sol	bold/contracts/test/TestContracts/Accounts.sol
+R100	contracts/test/TestContracts/AddRemoveManagersTester.sol	bold/contracts/test/TestContracts/AddRemoveManagersTester.sol
+R100	contracts/test/TestContracts/Assertions.sol	bold/contracts/test/TestContracts/Assertions.sol
+R100	contracts/test/TestContracts/BaseHandler.sol	bold/contracts/test/TestContracts/BaseHandler.sol
+R100	contracts/test/TestContracts/BaseInvariantTest.sol	bold/contracts/test/TestContracts/BaseInvariantTest.sol
+R081	contracts/test/TestContracts/BaseMultiCollateralTest.sol	bold/contracts/test/TestContracts/BaseMultiCollateralTest.sol
+R059	contracts/test/TestContracts/BaseTest.sol	bold/contracts/test/TestContracts/BaseTest.sol
+R085	contracts/test/TestContracts/BorrowerOperationsTester.t.sol	bold/contracts/test/TestContracts/BorrowerOperationsTester.t.sol
+R100	contracts/test/TestContracts/ChainlinkOracleMock.sol	bold/contracts/test/TestContracts/ChainlinkOracleMock.sol
+R082	contracts/test/TestContracts/CollateralRegistryTester.sol	bold/contracts/test/TestContracts/CollateralRegistryTester.sol
+R100	contracts/test/TestContracts/CommunityIssuanceMock.sol	bold/contracts/test/TestContracts/CommunityIssuanceMock.sol
+A	bold/contracts/test/TestContracts/Deployment.t.sol
+R094	contracts/test/TestContracts/DevTestSetup.sol	bold/contracts/test/TestContracts/DevTestSetup.sol
+R100	contracts/test/TestContracts/ERC20Faucet.sol	bold/contracts/test/TestContracts/ERC20Faucet.sol
+R100	contracts/test/TestContracts/ERC20MinterMock.sol	bold/contracts/test/TestContracts/ERC20MinterMock.sol
+R100	contracts/test/TestContracts/Interfaces/IBorrowerOperationsTester.sol	bold/contracts/test/TestContracts/Interfaces/IBorrowerOperationsTester.sol
+A	bold/contracts/test/TestContracts/Interfaces/IMockFXPriceFeed.sol
+R098	contracts/test/TestContracts/Interfaces/ITroveManagerTester.sol	bold/contracts/test/TestContracts/Interfaces/ITroveManagerTester.sol
+R098	contracts/test/TestContracts/InvariantsTestHandler.t.sol	bold/contracts/test/TestContracts/InvariantsTestHandler.t.sol
+R100	contracts/test/TestContracts/LQTYStakingMock.sol	bold/contracts/test/TestContracts/LQTYStakingMock.sol
+R100	contracts/test/TestContracts/LQTYTokenMock.sol	bold/contracts/test/TestContracts/LQTYTokenMock.sol
+R100	contracts/test/TestContracts/LiquityMathTester.sol	bold/contracts/test/TestContracts/LiquityMathTester.sol
+R100	contracts/test/TestContracts/MetadataDeployment.sol	bold/contracts/test/TestContracts/MetadataDeployment.sol
+A	bold/contracts/test/TestContracts/MockFXPriceFeed.sol
+R100	contracts/test/TestContracts/MockInterestRouter.sol	bold/contracts/test/TestContracts/MockInterestRouter.sol
+R100	contracts/test/TestContracts/NonPayableSwitch.sol	bold/contracts/test/TestContracts/NonPayableSwitch.sol
+R091	contracts/test/TestContracts/SPInvariantsTestHandler.t.sol	bold/contracts/test/TestContracts/SPInvariantsTestHandler.t.sol
+R100	contracts/test/TestContracts/SortedTrovesTester.sol	bold/contracts/test/TestContracts/SortedTrovesTester.sol
+A	bold/contracts/test/TestContracts/StableTokenV3.sol
+R094	contracts/test/TestContracts/TroveManagerTester.t.sol	bold/contracts/test/TestContracts/TroveManagerTester.t.sol
+R100	contracts/test/TestContracts/WETH.sol	bold/contracts/test/TestContracts/WETH.sol
+R100	contracts/test/TestContracts/WETHTester.sol	bold/contracts/test/TestContracts/WETHTester.sol
+A	bold/contracts/test/TestContracts/patched/ERC20PermitUpgradeable.sol
+A	bold/contracts/test/TestContracts/patched/ERC20Upgradeable.sol
+R100	contracts/test/Utils/BatchIdSet.sol	bold/contracts/test/Utils/BatchIdSet.sol
+R100	contracts/test/Utils/EnumerableSet.sol	bold/contracts/test/Utils/EnumerableSet.sol
+R100	contracts/test/Utils/Logging.sol	bold/contracts/test/Utils/Logging.sol
+R100	contracts/test/Utils/Math.sol	bold/contracts/test/Utils/Math.sol
+R100	contracts/test/Utils/StringEquality.sol	bold/contracts/test/Utils/StringEquality.sol
+R100	contracts/test/Utils/StringFormatting.sol	bold/contracts/test/Utils/StringFormatting.sol
+R100	contracts/test/Utils/Trove.sol	bold/contracts/test/Utils/Trove.sol
+R100	contracts/test/Utils/TroveId.sol	bold/contracts/test/Utils/TroveId.sol
+R086	contracts/test/Utils/UseDeployment.sol	bold/contracts/test/Utils/UseDeployment.sol
+R060	contracts/test/basicOps.t.sol	bold/contracts/test/basicOps.t.sol
+R100	contracts/test/batchManagementFee.t.sol	bold/contracts/test/batchManagementFee.t.sol
+R100	contracts/test/borrowerOperations.t.sol	bold/contracts/test/borrowerOperations.t.sol
+R100	contracts/test/borrowerOperationsOnBehalfTroveManagament.t.sol	bold/contracts/test/borrowerOperationsOnBehalfTroveManagament.t.sol
+R100	contracts/test/criticalThreshold.t.sol	bold/contracts/test/criticalThreshold.t.sol
+R100	contracts/test/deployment.t.sol	bold/contracts/test/deployment.t.sol
+R100	contracts/test/events.t.sol	bold/contracts/test/events.t.sol
+R093	contracts/test/interestBatchManagement.t.sol	bold/contracts/test/interestBatchManagement.t.sol
+R100	contracts/test/interestIndividualDelegation.t.sol	bold/contracts/test/interestIndividualDelegation.t.sol
+R099	contracts/test/interestRateAggregate.t.sol	bold/contracts/test/interestRateAggregate.t.sol
+R100	contracts/test/interestRateBasic.t.sol	bold/contracts/test/interestRateBasic.t.sol
+R096	contracts/test/liquidationCosts.t.sol	bold/contracts/test/liquidationCosts.t.sol
+R098	contracts/test/liquidations.t.sol	bold/contracts/test/liquidations.t.sol
+R097	contracts/test/liquidationsLST.t.sol	bold/contracts/test/liquidationsLST.t.sol
+R097	contracts/test/multicollateral.t.sol	bold/contracts/test/multicollateral.t.sol
+R099	contracts/test/rebasingBatchShares.t.sol	bold/contracts/test/rebasingBatchShares.t.sol
+R096	contracts/test/redemptions.t.sol	bold/contracts/test/redemptions.t.sol
+R099	contracts/test/shutdown.t.sol	bold/contracts/test/shutdown.t.sol
+R099	contracts/test/stabilityPool.t.sol	bold/contracts/test/stabilityPool.t.sol
+A	bold/contracts/test/stabilityScaling.t.sol
+A	bold/contracts/test/swapCollateralForStable.t.sol
+A	bold/contracts/test/systemParams.t.sol
+R100	contracts/test/troveManager.t.sol	bold/contracts/test/troveManager.t.sol
+R099	contracts/test/troveNFT.t.sol	bold/contracts/test/troveNFT.t.sol
+R100	contracts/tsconfig.json	bold/contracts/tsconfig.json
+R100	contracts/utils/BNConverter.js	bold/contracts/utils/BNConverter.js
+R100	contracts/utils/assets/bold_logo.txt	bold/contracts/utils/assets/bold_logo.txt
+R100	contracts/utils/assets/geist.txt	bold/contracts/utils/assets/geist.txt
+R100	contracts/utils/assets/reth_logo.txt	bold/contracts/utils/assets/reth_logo.txt
+R100	contracts/utils/assets/test_output/.gitignore	bold/contracts/utils/assets/test_output/.gitignore
+R100	contracts/utils/assets/weth_logo.txt	bold/contracts/utils/assets/weth_logo.txt
+R100	contracts/utils/assets/wsteth_logo.txt	bold/contracts/utils/assets/wsteth_logo.txt
+R100	contracts/utils/deploy-cli.ts	bold/contracts/utils/deploy-cli.ts
+R097	contracts/utils/deployment-manifest-to-app-env.ts	bold/contracts/utils/deployment-manifest-to-app-env.ts
+R100	contracts/utils/deploymentDev.js	bold/contracts/utils/deploymentDev.js
+R100	contracts/utils/deploymentGasAndBytecode.js	bold/contracts/utils/deploymentGasAndBytecode.js
+R100	contracts/utils/deploymentHelpers.js	bold/contracts/utils/deploymentHelpers.js
+R100	contracts/utils/extract-abi.ts	bold/contracts/utils/extract-abi.ts
+R100	contracts/utils/fundAccounts.js	bold/contracts/utils/fundAccounts.js
+R100	contracts/utils/fuzz-common.ts	bold/contracts/utils/fuzz-common.ts
+R100	contracts/utils/fuzz-repro.ts	bold/contracts/utils/fuzz-repro.ts
+R100	contracts/utils/fuzz.ts	bold/contracts/utils/fuzz.ts
+R100	contracts/utils/hintExamples.js	bold/contracts/utils/hintExamples.js
+R100	contracts/utils/makeAccounts.js	bold/contracts/utils/makeAccounts.js
+R100	contracts/utils/oracleABIs.js	bold/contracts/utils/oracleABIs.js
+R100	contracts/utils/priceFeedInteractions.js	bold/contracts/utils/priceFeedInteractions.js
+R100	contracts/utils/processGasOutput.js	bold/contracts/utils/processGasOutput.js
+R100	contracts/utils/testFixtures.js	bold/contracts/utils/testFixtures.js
+R100	contracts/utils/testHelpers.js	bold/contracts/utils/testHelpers.js
+R100	dprint.json	bold/dprint.json
+R055	frontend/app/.env	bold/frontend/app/.env
+R100	frontend/app/.gitignore	bold/frontend/app/.gitignore
+R100	frontend/app/.oxlintrc.json	bold/frontend/app/.oxlintrc.json
+R100	frontend/app/Banner.example.tsx	bold/frontend/app/Banner.example.tsx
+R100	frontend/app/LICENSE	bold/frontend/app/LICENSE
+R090	frontend/app/README.md	bold/frontend/app/README.md
+R100	frontend/app/RELEASING.md	bold/frontend/app/RELEASING.md
+R054	frontend/app/graphql-codegen.ts	bold/frontend/app/graphql-codegen.ts
+R100	frontend/app/next.config.js	bold/frontend/app/next.config.js
+R093	frontend/app/package.json	bold/frontend/app/package.json
+R100	frontend/app/panda.config.ts	bold/frontend/app/panda.config.ts
+R100	frontend/app/postcss.config.cjs	bold/frontend/app/postcss.config.cjs
+R100	frontend/app/public/InterVariable.woff2	bold/frontend/app/public/InterVariable.woff2
+R100	frontend/app/public/coingecko.png	bold/frontend/app/public/coingecko.png
+R100	frontend/app/public/favicon.svg	bold/frontend/app/public/favicon.svg
+R100	frontend/app/public/fork-icons/felix.png	bold/frontend/app/public/fork-icons/felix.png
+R100	frontend/app/public/fork-icons/orki.svg	bold/frontend/app/public/fork-icons/orki.svg
+R100	frontend/app/public/fork-icons/quill.svg	bold/frontend/app/public/fork-icons/quill.svg
+R100	frontend/app/public/initiatives-snapshot-1.json	bold/frontend/app/public/initiatives-snapshot-1.json
+R100	frontend/app/public/troves-snapshot-1.json	bold/frontend/app/public/troves-snapshot-1.json
+R100	frontend/app/scripts/initiatives-snapshot.ts	bold/frontend/app/scripts/initiatives-snapshot.ts
+R100	frontend/app/scripts/troves-snapshot.ts	bold/frontend/app/scripts/troves-snapshot.ts
+R097	frontend/app/scripts/update-liquity-abis.ts	bold/frontend/app/scripts/update-liquity-abis.ts
+R100	frontend/app/src/abi/ActivePool.ts	bold/frontend/app/src/abi/ActivePool.ts
+R100	frontend/app/src/abi/BorrowerOperations.ts	bold/frontend/app/src/abi/BorrowerOperations.ts
+R093	frontend/app/src/abi/BribeInitiative.ts	bold/frontend/app/src/abi/BribeInitiative.ts
+R100	frontend/app/src/abi/CollSurplusPool.ts	bold/frontend/app/src/abi/CollSurplusPool.ts
+R100	frontend/app/src/abi/CollateralRegistry.ts	bold/frontend/app/src/abi/CollateralRegistry.ts
+R100	frontend/app/src/abi/DefaultPool.ts	bold/frontend/app/src/abi/DefaultPool.ts
+R100	frontend/app/src/abi/ERC20Faucet.ts	bold/frontend/app/src/abi/ERC20Faucet.ts
+R100	frontend/app/src/abi/Erc2612.ts	bold/frontend/app/src/abi/Erc2612.ts
+R100	frontend/app/src/abi/ExchangeHelpers.ts	bold/frontend/app/src/abi/ExchangeHelpers.ts
+R100	frontend/app/src/abi/GasPool.ts	bold/frontend/app/src/abi/GasPool.ts
+R100	frontend/app/src/abi/Governance.ts	bold/frontend/app/src/abi/Governance.ts
+R100	frontend/app/src/abi/HintHelpers.ts	bold/frontend/app/src/abi/HintHelpers.ts
+R100	frontend/app/src/abi/LeverageLSTZapper.ts	bold/frontend/app/src/abi/LeverageLSTZapper.ts
+R100	frontend/app/src/abi/LeverageWETHZapper.ts	bold/frontend/app/src/abi/LeverageWETHZapper.ts
+R100	frontend/app/src/abi/LqtyStaking.ts	bold/frontend/app/src/abi/LqtyStaking.ts
+R100	frontend/app/src/abi/LqtyToken.ts	bold/frontend/app/src/abi/LqtyToken.ts
+R100	frontend/app/src/abi/MultiTroveGetter.ts	bold/frontend/app/src/abi/MultiTroveGetter.ts
+R071	frontend/app/src/abi/PriceFeed.ts	bold/frontend/app/src/abi/PriceFeed.ts
+R100	frontend/app/src/abi/SortedTroves.ts	bold/frontend/app/src/abi/SortedTroves.ts
+R100	frontend/app/src/abi/StabilityPool.ts	bold/frontend/app/src/abi/StabilityPool.ts
+R100	frontend/app/src/abi/TroveManager.ts	bold/frontend/app/src/abi/TroveManager.ts
+R100	frontend/app/src/abi/TroveNFT.ts	bold/frontend/app/src/abi/TroveNFT.ts
+R100	frontend/app/src/anim-utils.ts	bold/frontend/app/src/anim-utils.ts
+R100	frontend/app/src/app/account/page.tsx	bold/frontend/app/src/app/account/page.tsx
+R100	frontend/app/src/app/borrow/[collateral]/page.tsx	bold/frontend/app/src/app/borrow/[collateral]/page.tsx
+R100	frontend/app/src/app/borrow/layout.tsx	bold/frontend/app/src/app/borrow/layout.tsx
+R100	frontend/app/src/app/borrow/page.tsx	bold/frontend/app/src/app/borrow/page.tsx
+R088	frontend/app/src/app/earn/[pool]/[action]/page.tsx	bold/frontend/app/src/app/earn/[pool]/[action]/page.tsx
+R100	frontend/app/src/app/earn/[pool]/layout.tsx	bold/frontend/app/src/app/earn/[pool]/layout.tsx
+R100	frontend/app/src/app/earn/[pool]/page.tsx	bold/frontend/app/src/app/earn/[pool]/page.tsx
+R100	frontend/app/src/app/earn/page.tsx	bold/frontend/app/src/app/earn/page.tsx
+R100	frontend/app/src/app/error.tsx	bold/frontend/app/src/app/error.tsx
+R100	frontend/app/src/app/layout.tsx	bold/frontend/app/src/app/layout.tsx
+R100	frontend/app/src/app/legacy/page.tsx	bold/frontend/app/src/app/legacy/page.tsx
+R100	frontend/app/src/app/loan/close/page.tsx	bold/frontend/app/src/app/loan/close/page.tsx
+R100	frontend/app/src/app/loan/colldebt/page.tsx	bold/frontend/app/src/app/loan/colldebt/page.tsx
+R100	frontend/app/src/app/loan/layout.tsx	bold/frontend/app/src/app/loan/layout.tsx
+R100	frontend/app/src/app/loan/page.tsx	bold/frontend/app/src/app/loan/page.tsx
+R100	frontend/app/src/app/loan/rate/page.tsx	bold/frontend/app/src/app/loan/rate/page.tsx
+R100	frontend/app/src/app/multiply/[collateral]/page.tsx	bold/frontend/app/src/app/multiply/[collateral]/page.tsx
+R100	frontend/app/src/app/multiply/layout.tsx	bold/frontend/app/src/app/multiply/layout.tsx
+R100	frontend/app/src/app/multiply/page.tsx	bold/frontend/app/src/app/multiply/page.tsx
+R100	frontend/app/src/app/not-found.tsx	bold/frontend/app/src/app/not-found.tsx
+R100	frontend/app/src/app/page.tsx	bold/frontend/app/src/app/page.tsx
+R100	frontend/app/src/app/redeem/page.tsx	bold/frontend/app/src/app/redeem/page.tsx
+R100	frontend/app/src/app/stake/[action]/page.tsx	bold/frontend/app/src/app/stake/[action]/page.tsx
+R100	frontend/app/src/app/stake/layout.tsx	bold/frontend/app/src/app/stake/layout.tsx
+R100	frontend/app/src/app/stake/page.tsx	bold/frontend/app/src/app/stake/page.tsx
+R100	frontend/app/src/app/transactions/page.tsx	bold/frontend/app/src/app/transactions/page.tsx
+R100	frontend/app/src/breakpoints.tsx	bold/frontend/app/src/breakpoints.tsx
+R100	frontend/app/src/characters.ts	bold/frontend/app/src/characters.ts
+R100	frontend/app/src/colors.ts	bold/frontend/app/src/colors.ts
+R100	frontend/app/src/comps/About/About.tsx	bold/frontend/app/src/comps/About/About.tsx
+R100	frontend/app/src/comps/ActionCard/ActionCard.tsx	bold/frontend/app/src/comps/ActionCard/ActionCard.tsx
+R100	frontend/app/src/comps/ActionCard/ActionIcon.tsx	bold/frontend/app/src/comps/ActionCard/ActionIcon.tsx
+R100	frontend/app/src/comps/AddressLink/AddressLink.tsx	bold/frontend/app/src/comps/AddressLink/AddressLink.tsx
+R100	frontend/app/src/comps/Amount/Amount.tsx	bold/frontend/app/src/comps/Amount/Amount.tsx
+R100	frontend/app/src/comps/Amount/InlineTokenAmount.tsx	bold/frontend/app/src/comps/Amount/InlineTokenAmount.tsx
+R100	frontend/app/src/comps/Amount/TokenAmount.tsx	bold/frontend/app/src/comps/Amount/TokenAmount.tsx
+R100	frontend/app/src/comps/AppLayout/AboutButton.tsx	bold/frontend/app/src/comps/AppLayout/AboutButton.tsx
+R100	frontend/app/src/comps/AppLayout/AccountButton.tsx	bold/frontend/app/src/comps/AppLayout/AccountButton.tsx
+R083	frontend/app/src/comps/AppLayout/AppLayout.tsx	bold/frontend/app/src/comps/AppLayout/AppLayout.tsx
+R099	frontend/app/src/comps/AppLayout/BottomBar.tsx	bold/frontend/app/src/comps/AppLayout/BottomBar.tsx
+R100	frontend/app/src/comps/AppLayout/Menu.tsx	bold/frontend/app/src/comps/AppLayout/Menu.tsx
+R100	frontend/app/src/comps/AppLayout/MenuDrawer.tsx	bold/frontend/app/src/comps/AppLayout/MenuDrawer.tsx
+R100	frontend/app/src/comps/AppLayout/MenuItem.tsx	bold/frontend/app/src/comps/AppLayout/MenuItem.tsx
+R096	frontend/app/src/comps/AppLayout/TopBar.tsx	bold/frontend/app/src/comps/AppLayout/TopBar.tsx
+R100	frontend/app/src/comps/Blocking/Blocking.tsx	bold/frontend/app/src/comps/Blocking/Blocking.tsx
+R100	frontend/app/src/comps/ConnectWarningBox/ConnectWarningBox.tsx	bold/frontend/app/src/comps/ConnectWarningBox/ConnectWarningBox.tsx
+R100	frontend/app/src/comps/Details/Details.tsx	bold/frontend/app/src/comps/Details/Details.tsx
+R100	frontend/app/src/comps/EarnPositionSummary/EarnPositionSummary.tsx	bold/frontend/app/src/comps/EarnPositionSummary/EarnPositionSummary.tsx
+R094	frontend/app/src/comps/EarnPositionSummary/EarnPositionSummaryBase.tsx	bold/frontend/app/src/comps/EarnPositionSummary/EarnPositionSummaryBase.tsx
+R098	frontend/app/src/comps/EarnPositionSummary/SboldPositionSummary.tsx	bold/frontend/app/src/comps/EarnPositionSummary/SboldPositionSummary.tsx
+R100	frontend/app/src/comps/ErrorBox/ErrorBox.tsx	bold/frontend/app/src/comps/ErrorBox/ErrorBox.tsx
+R070	frontend/app/src/comps/Field/Field.tsx	bold/frontend/app/src/comps/Field/Field.tsx
+R100	frontend/app/src/comps/FlowButton/FlowButton.tsx	bold/frontend/app/src/comps/FlowButton/FlowButton.tsx
+R100	frontend/app/src/comps/Footer/footer-logo.svg	bold/frontend/app/src/comps/Footer/footer-logo.svg
+R100	frontend/app/src/comps/Indicator/Indicator.tsx	bold/frontend/app/src/comps/Indicator/Indicator.tsx
+R100	frontend/app/src/comps/InputTokenBadge/InputTokenBadge.tsx	bold/frontend/app/src/comps/InputTokenBadge/InputTokenBadge.tsx
+R077	frontend/app/src/comps/InterestRateField/DelegateBox.tsx	bold/frontend/app/src/comps/InterestRateField/DelegateBox.tsx
+A	bold/frontend/app/src/comps/InterestRateField/DelegateModal.tsx
+A	bold/frontend/app/src/comps/InterestRateField/IcStrategiesModal.tsx
+R077	frontend/app/src/comps/InterestRateField/InterestRateField.tsx	bold/frontend/app/src/comps/InterestRateField/InterestRateField.tsx
+R100	frontend/app/src/comps/InterestRateField/MiniChart.tsx	bold/frontend/app/src/comps/InterestRateField/MiniChart.tsx
+R100	frontend/app/src/comps/InterestRateField/ShadowBox.tsx	bold/frontend/app/src/comps/InterestRateField/ShadowBox.tsx
+R100	frontend/app/src/comps/InterestRateField/ic-logo.svg	bold/frontend/app/src/comps/InterestRateField/ic-logo.svg
+R058	frontend/app/src/comps/InfoBanner/InfoBanner.tsx	bold/frontend/app/src/comps/LegacyPositionsBanner/LegacyPositionsBanner.tsx
+A	bold/frontend/app/src/comps/LeverageField/LeverageField.tsx
+R100	frontend/app/src/comps/LinkButton/LinkButton.tsx	bold/frontend/app/src/comps/LinkButton/LinkButton.tsx
+R100	frontend/app/src/comps/LinkTextButton/LinkTextButton.tsx	bold/frontend/app/src/comps/LinkTextButton/LinkTextButton.tsx
+R100	frontend/app/src/comps/Logo/Logo.tsx	bold/frontend/app/src/comps/Logo/Logo.tsx
+R100	frontend/app/src/comps/PercentageBars/PercentageBars.tsx	bold/frontend/app/src/comps/PercentageBars/PercentageBars.tsx
+R095	frontend/app/src/comps/Positions/NewPositionCard.tsx	bold/frontend/app/src/comps/Positions/NewPositionCard.tsx
+R100	frontend/app/src/comps/Positions/PositionCard.tsx	bold/frontend/app/src/comps/Positions/PositionCard.tsx
+A	bold/frontend/app/src/comps/Positions/PositionCardBorrow.tsx
+R100	frontend/app/src/comps/Positions/PositionCardEarn.tsx	bold/frontend/app/src/comps/Positions/PositionCardEarn.tsx
+A	bold/frontend/app/src/comps/Positions/PositionCardLeverage.tsx
+R078	frontend/app/src/comps/Positions/PositionCardLoan.tsx	bold/frontend/app/src/comps/Positions/PositionCardLoan.tsx
+R100	frontend/app/src/comps/Positions/PositionCardSbold.tsx	bold/frontend/app/src/comps/Positions/PositionCardSbold.tsx
+R100	frontend/app/src/comps/Positions/PositionCardStake.tsx	bold/frontend/app/src/comps/Positions/PositionCardStake.tsx
+A	bold/frontend/app/src/comps/Positions/Positions.tsx
+R100	frontend/app/src/comps/Positions/shared.tsx	bold/frontend/app/src/comps/Positions/shared.tsx
+R100	frontend/app/src/comps/ProductCard/ProductCard.tsx	bold/frontend/app/src/comps/ProductCard/ProductCard.tsx
+R100	frontend/app/src/comps/ProductCard/ProductCardGroup.tsx	bold/frontend/app/src/comps/ProductCard/ProductCardGroup.tsx
+R100	frontend/app/src/comps/RedemptionInfo/RedemptionInfo.tsx	bold/frontend/app/src/comps/RedemptionInfo/RedemptionInfo.tsx
+R100	frontend/app/src/comps/SboldInfo/SboldInfo.tsx	bold/frontend/app/src/comps/SboldInfo/SboldInfo.tsx
+R100	frontend/app/src/comps/Screen/Screen.tsx	bold/frontend/app/src/comps/Screen/Screen.tsx
+R100	frontend/app/src/comps/Screen/ScreenCard.tsx	bold/frontend/app/src/comps/Screen/ScreenCard.tsx
+R100	frontend/app/src/comps/Spinner/Spinner.tsx	bold/frontend/app/src/comps/Spinner/Spinner.tsx
+R100	frontend/app/src/comps/StakePositionSummary/StakePositionSummary.tsx	bold/frontend/app/src/comps/StakePositionSummary/StakePositionSummary.tsx
+R056	frontend/app/src/comps/Tag/LoanStatusTag.tsx	bold/frontend/app/src/comps/Tag/LoanStatusTag.tsx
+R100	frontend/app/src/comps/Tag/Tag.tsx	bold/frontend/app/src/comps/Tag/Tag.tsx
+R100	frontend/app/src/comps/TagPreview/TagPreview.tsx	bold/frontend/app/src/comps/TagPreview/TagPreview.tsx
+R100	frontend/app/src/comps/UpdateBox/UpdateBox.tsx	bold/frontend/app/src/comps/UpdateBox/UpdateBox.tsx
+R100	frontend/app/src/comps/Value/Value.tsx	bold/frontend/app/src/comps/Value/Value.tsx
+R100	frontend/app/src/comps/ValueUpdate/ValueUpdate.tsx	bold/frontend/app/src/comps/ValueUpdate/ValueUpdate.tsx
+A	bold/frontend/app/src/comps/VoteInput/VoteInput.tsx
+R100	frontend/app/src/comps/WarningBox/WarningBox.tsx	bold/frontend/app/src/comps/WarningBox/WarningBox.tsx
+R087	frontend/app/src/constants.ts	bold/frontend/app/src/constants.ts
+R065	frontend/app/src/content.tsx	bold/frontend/app/src/content.tsx
+R088	frontend/app/src/contracts.ts	bold/frontend/app/src/contracts.ts
+R078	frontend/app/src/dnum-utils.ts	bold/frontend/app/src/dnum-utils.ts
+R092	frontend/app/src/env.ts	bold/frontend/app/src/env.ts
+R068	frontend/app/src/form-utils.ts	bold/frontend/app/src/form-utils.ts
+R100	frontend/app/src/formatting.test.ts	bold/frontend/app/src/formatting.test.ts
+R097	frontend/app/src/formatting.ts	bold/frontend/app/src/formatting.ts
+R100	frontend/app/src/graphql/fragment-masking.ts	bold/frontend/app/src/graphql/fragment-masking.ts
+R074	frontend/app/src/graphql/gql.ts	bold/frontend/app/src/graphql/gql.ts
+R092	frontend/app/src/graphql/graphql.ts	bold/frontend/app/src/graphql/graphql.ts
+R100	frontend/app/src/graphql/index.ts	bold/frontend/app/src/graphql/index.ts
+R100	frontend/app/src/indicators/rpc-indicator.ts	bold/frontend/app/src/indicators/rpc-indicator.ts
+R100	frontend/app/src/indicators/subgraph-indicator.ts	bold/frontend/app/src/indicators/subgraph-indicator.ts
+R081	frontend/app/src/liquity-governance.ts	bold/frontend/app/src/liquity-governance.ts
+A	bold/frontend/app/src/liquity-leverage.ts
+R097	frontend/app/src/liquity-math.test.ts	bold/frontend/app/src/liquity-math.test.ts
+R081	frontend/app/src/liquity-math.ts	bold/frontend/app/src/liquity-math.ts
+R069	frontend/app/src/liquity-utils.ts	bold/frontend/app/src/liquity-utils.ts
+R100	frontend/app/src/permit.ts	bold/frontend/app/src/permit.ts
+A	bold/frontend/app/src/react-utils.ts
+R095	frontend/app/src/safe-utils.ts	bold/frontend/app/src/safe-utils.ts
+R099	frontend/app/src/sbold.ts	bold/frontend/app/src/sbold.ts
+R100	frontend/app/src/screens/AccountScreen/AccountScreen.tsx	bold/frontend/app/src/screens/AccountScreen/AccountScreen.tsx
+R069	frontend/app/src/screens/BorrowScreen/BorrowScreen.tsx	bold/frontend/app/src/screens/BorrowScreen/BorrowScreen.tsx
+R094	frontend/app/src/screens/EarnPoolScreen/EarnPoolScreen.tsx	bold/frontend/app/src/screens/EarnPoolScreen/EarnPoolScreen.tsx
+A	bold/frontend/app/src/screens/EarnPoolScreen/PanelClaimRewards.tsx
+R094	frontend/app/src/screens/EarnPoolScreen/PanelUpdateDeposit.tsx	bold/frontend/app/src/screens/EarnPoolScreen/PanelUpdateDeposit.tsx
+R100	frontend/app/src/screens/EarnPoolScreen/SboldPoolScreen.tsx	bold/frontend/app/src/screens/EarnPoolScreen/SboldPoolScreen.tsx
+R091	frontend/app/src/screens/EarnPoolsListScreen/EarnPoolsListScreen.tsx	bold/frontend/app/src/screens/EarnPoolsListScreen/EarnPoolsListScreen.tsx
+R082	frontend/app/src/screens/HomeScreen/HomeScreen.tsx	bold/frontend/app/src/screens/HomeScreen/HomeScreen.tsx
+R100	frontend/app/src/screens/HomeScreen/HomeTable.tsx	bold/frontend/app/src/screens/HomeScreen/HomeTable.tsx
+R100	frontend/app/src/screens/HomeScreen/YieldSourceTable/YieldSourceTable.tsx	bold/frontend/app/src/screens/HomeScreen/YieldSourceTable/YieldSourceTable.tsx
+R100	frontend/app/src/screens/HomeScreen/YieldSourceTable/components/Hint/Hint.tsx	bold/frontend/app/src/screens/HomeScreen/YieldSourceTable/components/Hint/Hint.tsx
+R100	frontend/app/src/screens/HomeScreen/YieldSourceTable/components/Hint/index.ts	bold/frontend/app/src/screens/HomeScreen/YieldSourceTable/components/Hint/index.ts
+R100	frontend/app/src/screens/HomeScreen/YieldSourceTable/components/YieldSourceRow/YieldSourceRow.tsx	bold/frontend/app/src/screens/HomeScreen/YieldSourceTable/components/YieldSourceRow/YieldSourceRow.tsx
+R100	frontend/app/src/screens/HomeScreen/YieldSourceTable/components/YieldSourceRow/index.ts	bold/frontend/app/src/screens/HomeScreen/YieldSourceTable/components/YieldSourceRow/index.ts
+R100	frontend/app/src/screens/HomeScreen/YieldSourceTable/index.ts	bold/frontend/app/src/screens/HomeScreen/YieldSourceTable/index.ts
+R100	frontend/app/src/screens/LegacyScreen/LegacyScreen.tsx	bold/frontend/app/src/screens/LegacyScreen/LegacyScreen.tsx
+A	bold/frontend/app/src/screens/LeverageScreen/LeverageScreen.tsx
+R070	frontend/app/src/screens/LoanScreen/LoanScreen.tsx	bold/frontend/app/src/screens/LoanScreen/LoanScreen.tsx
+R076	frontend/app/src/screens/LoanScreen/LoanScreenCard.tsx	bold/frontend/app/src/screens/LoanScreen/LoanScreenCard.tsx
+R056	frontend/app/src/screens/LoanScreen/PanelClosePosition.tsx	bold/frontend/app/src/screens/LoanScreen/PanelClosePosition.tsx
+R065	frontend/app/src/screens/LoanScreen/PanelInterestRate.tsx	bold/frontend/app/src/screens/LoanScreen/PanelInterestRate.tsx
+R069	frontend/app/src/screens/LoanScreen/PanelUpdateBorrowPosition.tsx	bold/frontend/app/src/screens/LoanScreen/PanelUpdateBorrowPosition.tsx
+A	bold/frontend/app/src/screens/LoanScreen/PanelUpdateLeveragePosition.tsx
+A	bold/frontend/app/src/screens/RedeemScreen/RedeemScreen.tsx
+R100	frontend/app/src/screens/StakeScreen/PanelRewards.tsx	bold/frontend/app/src/screens/StakeScreen/PanelRewards.tsx
+R100	frontend/app/src/screens/StakeScreen/PanelStaking.tsx	bold/frontend/app/src/screens/StakeScreen/PanelStaking.tsx
+A	bold/frontend/app/src/screens/StakeScreen/PanelVoting.tsx
+R099	frontend/app/src/screens/StakeScreen/StakeScreen.tsx	bold/frontend/app/src/screens/StakeScreen/StakeScreen.tsx
+R088	frontend/app/src/screens/TransactionsScreen/AccountButton.tsx	bold/frontend/app/src/screens/TransactionsScreen/AccountButton.tsx
+R073	frontend/app/src/screens/TransactionsScreen/LoanCard/LoanCard.tsx	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/LoanCard.tsx
+R100	frontend/app/src/screens/TransactionsScreen/LoanCard/components/ClosedLoan/ClosedLoan.tsx	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/ClosedLoan/ClosedLoan.tsx
+R082	frontend/app/src/screens/TransactionsScreen/LoanCard/components/ClosedLoan/components/CollateralRow/CollateralRow.tsx	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/ClosedLoan/components/CollateralRow/CollateralRow.tsx
+R100	frontend/app/src/screens/TransactionsScreen/LoanCard/components/ClosedLoan/components/CollateralRow/index.ts	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/ClosedLoan/components/CollateralRow/index.ts
+R100	frontend/app/src/screens/TransactionsScreen/LoanCard/components/ClosedLoan/index.ts	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/ClosedLoan/index.ts
+R090	frontend/app/src/screens/TransactionsScreen/LoanCard/components/LoadingCard/LoadingCard.tsx	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/LoadingCard/LoadingCard.tsx
+R100	frontend/app/src/screens/TransactionsScreen/LoanCard/components/LoadingCard/index.ts	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/LoadingCard/index.ts
+R060	frontend/app/src/screens/TransactionsScreen/LoanCard/components/OpenLoan/OpenLoan.tsx	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/OpenLoan/OpenLoan.tsx
+R079	frontend/app/src/screens/TransactionsScreen/LoanCard/components/OpenLoan/components/CollateralCell/CollateralCell.tsx	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/OpenLoan/components/CollateralCell/CollateralCell.tsx
+R100	frontend/app/src/screens/TransactionsScreen/LoanCard/components/OpenLoan/components/CollateralCell/index.ts	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/OpenLoan/components/CollateralCell/index.ts
+A	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/OpenLoan/components/LeveragedExposure/LeveragedExposure.tsx
+A	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/OpenLoan/components/LeveragedExposure/index.ts
+A	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/OpenLoan/components/NetValueCell/NetValueCell.tsx
+A	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/OpenLoan/components/NetValueCell/index.ts
+R100	frontend/app/src/screens/TransactionsScreen/LoanCard/components/OpenLoan/index.ts	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/OpenLoan/index.ts
+R100	frontend/app/src/comps/CrossedText/CrossedText.tsx	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/components/CrossedText/CrossedText.tsx
+R100	frontend/app/src/comps/CrossedText/index.ts	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/components/CrossedText/index.ts
+R100	frontend/app/src/screens/TransactionsScreen/LoanCard/components/components/GridItem/GridItem.tsx	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/components/GridItem/GridItem.tsx
+R100	frontend/app/src/screens/TransactionsScreen/LoanCard/components/components/GridItem/index.ts	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/components/GridItem/index.ts
+R100	frontend/app/src/screens/TransactionsScreen/LoanCard/components/components/GridItemWrapper/GridItemWrapper.tsx	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/components/GridItemWrapper/GridItemWrapper.tsx
+R100	frontend/app/src/screens/TransactionsScreen/LoanCard/components/components/GridItemWrapper/index.ts	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/components/GridItemWrapper/index.ts
+R086	frontend/app/src/screens/TransactionsScreen/LoanCard/components/components/TotalDebt/TotalDebt.tsx	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/components/TotalDebt/TotalDebt.tsx
+R100	frontend/app/src/screens/TransactionsScreen/LoanCard/components/components/TotalDebt/index.ts	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/components/components/TotalDebt/index.ts
+R100	frontend/app/src/screens/TransactionsScreen/LoanCard/index.ts	bold/frontend/app/src/screens/TransactionsScreen/LoanCard/index.ts
+R100	frontend/app/src/screens/TransactionsScreen/PermissionStatus.tsx	bold/frontend/app/src/screens/TransactionsScreen/PermissionStatus.tsx
+R100	frontend/app/src/screens/TransactionsScreen/TransactionStatus.tsx	bold/frontend/app/src/screens/TransactionsScreen/TransactionStatus.tsx
+R100	frontend/app/src/screens/TransactionsScreen/TransactionsScreen.tsx	bold/frontend/app/src/screens/TransactionsScreen/TransactionsScreen.tsx
+R100	frontend/app/src/services/Ethereum.tsx	bold/frontend/app/src/services/Ethereum.tsx
+R100	frontend/app/src/services/IndicatorManager.tsx	bold/frontend/app/src/services/IndicatorManager.tsx
+R078	frontend/app/src/services/Prices.tsx	bold/frontend/app/src/services/Prices.tsx
+R100	frontend/app/src/services/ReactQuery.tsx	bold/frontend/app/src/services/ReactQuery.tsx
+R100	frontend/app/src/services/StoredState.tsx	bold/frontend/app/src/services/StoredState.tsx
+R100	frontend/app/src/services/TransactionFlow.tsx	bold/frontend/app/src/services/TransactionFlow.tsx
+R078	frontend/app/src/subgraph.ts	bold/frontend/app/src/subgraph.ts
+R099	frontend/app/src/tx-flows/allocateVotingPower.tsx	bold/frontend/app/src/tx-flows/allocateVotingPower.tsx
+R100	frontend/app/src/tx-flows/claimBribes.tsx	bold/frontend/app/src/tx-flows/claimBribes.tsx
+R098	frontend/app/src/tx-flows/claimCollateralSurplus.tsx	bold/frontend/app/src/tx-flows/claimCollateralSurplus.tsx
+R074	frontend/app/src/tx-flows/closeLoanPosition.tsx	bold/frontend/app/src/tx-flows/closeLoanPosition.tsx
+R086	frontend/app/src/tx-flows/earnClaimRewards.tsx	bold/frontend/app/src/tx-flows/earnClaimRewards.tsx
+R099	frontend/app/src/tx-flows/earnUpdate.tsx	bold/frontend/app/src/tx-flows/earnUpdate.tsx
+R100	frontend/app/src/tx-flows/legacyCloseLoanPosition.tsx	bold/frontend/app/src/tx-flows/legacyCloseLoanPosition.tsx
+R100	frontend/app/src/tx-flows/legacyEarnWithdrawAll.tsx	bold/frontend/app/src/tx-flows/legacyEarnWithdrawAll.tsx
+R100	frontend/app/src/tx-flows/legacyRedeemCollateral.tsx	bold/frontend/app/src/tx-flows/legacyRedeemCollateral.tsx
+R100	frontend/app/src/tx-flows/legacyUnstakeAll.tsx	bold/frontend/app/src/tx-flows/legacyUnstakeAll.tsx
+R098	frontend/app/src/tx-flows/openBorrowPosition.tsx	bold/frontend/app/src/tx-flows/openBorrowPosition.tsx
+R069	frontend/app/src/tx-flows/openLeveragePosition.tsx	bold/frontend/app/src/tx-flows/openLeveragePosition.tsx
+A	bold/frontend/app/src/tx-flows/redeemCollateral.tsx
+R100	frontend/app/src/tx-flows/sboldDeposit.tsx	bold/frontend/app/src/tx-flows/sboldDeposit.tsx
+R100	frontend/app/src/tx-flows/sboldRedeem.tsx	bold/frontend/app/src/tx-flows/sboldRedeem.tsx
+R082	frontend/app/src/tx-flows/shared.ts	bold/frontend/app/src/tx-flows/shared.ts
+R100	frontend/app/src/tx-flows/stakeClaimRewards.tsx	bold/frontend/app/src/tx-flows/stakeClaimRewards.tsx
+R100	frontend/app/src/tx-flows/stakeDeposit.tsx	bold/frontend/app/src/tx-flows/stakeDeposit.tsx
+A	bold/frontend/app/src/tx-flows/unstakeDeposit.tsx
+R095	frontend/app/src/tx-flows/updateBorrowPosition.tsx	bold/frontend/app/src/tx-flows/updateBorrowPosition.tsx
+R065	frontend/app/src/tx-flows/updateLeveragePosition.tsx	bold/frontend/app/src/tx-flows/updateLeveragePosition.tsx
+R096	frontend/app/src/tx-flows/updateLoanInterestRate.tsx	bold/frontend/app/src/tx-flows/updateLoanInterestRate.tsx
+R091	frontend/app/src/types.ts	bold/frontend/app/src/types.ts
+R100	frontend/app/src/uikit-utils.tsx	bold/frontend/app/src/uikit-utils.tsx
+R091	frontend/app/src/utils.ts	bold/frontend/app/src/utils.ts
+R094	frontend/app/src/valibot-utils.ts	bold/frontend/app/src/valibot-utils.ts
+R091	frontend/app/src/wagmi-utils.ts	bold/frontend/app/src/wagmi-utils.ts
+R100	frontend/app/tsconfig.json	bold/frontend/app/tsconfig.json
+R100	frontend/app/vite.config.ts	bold/frontend/app/vite.config.ts
+R100	frontend/uikit-gallery/.eslintrc.json	bold/frontend/uikit-gallery/.eslintrc.json
+R100	frontend/uikit-gallery/.gitignore	bold/frontend/uikit-gallery/.gitignore
+R100	frontend/uikit-gallery/LICENSE	bold/frontend/uikit-gallery/LICENSE
+R100	frontend/uikit-gallery/README.md	bold/frontend/uikit-gallery/README.md
+R100	frontend/uikit-gallery/cosmos.config.json	bold/frontend/uikit-gallery/cosmos.config.json
+R100	frontend/uikit-gallery/next.config.mjs	bold/frontend/uikit-gallery/next.config.mjs
+R100	frontend/uikit-gallery/package.json	bold/frontend/uikit-gallery/package.json
+R100	frontend/uikit-gallery/panda.config.ts	bold/frontend/uikit-gallery/panda.config.ts
+R100	frontend/uikit-gallery/postcss.config.cjs	bold/frontend/uikit-gallery/postcss.config.cjs
+R100	frontend/uikit-gallery/src/Button/1. Large.fixture.tsx	bold/frontend/uikit-gallery/src/Button/1. Large.fixture.tsx
+R100	frontend/uikit-gallery/src/Button/2. Medium.fixture.tsx	bold/frontend/uikit-gallery/src/Button/2. Medium.fixture.tsx
+R100	frontend/uikit-gallery/src/Button/3. Small.fixture.tsx	bold/frontend/uikit-gallery/src/Button/3. Small.fixture.tsx
+R100	frontend/uikit-gallery/src/Button/4. Mini.fixture.tsx	bold/frontend/uikit-gallery/src/Button/4. Mini.fixture.tsx
+R100	frontend/uikit-gallery/src/Button/shared.tsx	bold/frontend/uikit-gallery/src/Button/shared.tsx
+R100	frontend/uikit-gallery/src/Checkbox/1. Default.fixture.tsx	bold/frontend/uikit-gallery/src/Checkbox/1. Default.fixture.tsx
+R100	frontend/uikit-gallery/src/Checkbox/2. Disabled.fixture.tsx	bold/frontend/uikit-gallery/src/Checkbox/2. Disabled.fixture.tsx
+R100	frontend/uikit-gallery/src/Dropdown/1. Default.fixture.tsx	bold/frontend/uikit-gallery/src/Dropdown/1. Default.fixture.tsx
+R100	frontend/uikit-gallery/src/Dropdown/2. Placeholder.fixture.tsx	bold/frontend/uikit-gallery/src/Dropdown/2. Placeholder.fixture.tsx
+R100	frontend/uikit-gallery/src/Dropdown/3. Small.fixture.tsx	bold/frontend/uikit-gallery/src/Dropdown/3. Small.fixture.tsx
+R100	frontend/uikit-gallery/src/Dropdown/shared.tsx	bold/frontend/uikit-gallery/src/Dropdown/shared.tsx
+R100	frontend/uikit-gallery/src/Icon/1. Default.fixture.tsx	bold/frontend/uikit-gallery/src/Icon/1. Default.fixture.tsx
+R100	frontend/uikit-gallery/src/InputField/1. Deposit.fixture.tsx	bold/frontend/uikit-gallery/src/InputField/1. Deposit.fixture.tsx
+R100	frontend/uikit-gallery/src/InputField/2. Borrow.fixture.tsx	bold/frontend/uikit-gallery/src/InputField/2. Borrow.fixture.tsx
+R100	frontend/uikit-gallery/src/InputField/3. Interest.fixture.tsx	bold/frontend/uikit-gallery/src/InputField/3. Interest.fixture.tsx
+R100	frontend/uikit-gallery/src/InputField/4. Slider.fixture.tsx	bold/frontend/uikit-gallery/src/InputField/4. Slider.fixture.tsx
+R100	frontend/uikit-gallery/src/InputField/5. Tabs.fixture.tsx	bold/frontend/uikit-gallery/src/InputField/5. Tabs.fixture.tsx
+R100	frontend/uikit-gallery/src/InputField/icon-bold.svg	bold/frontend/uikit-gallery/src/InputField/icon-bold.svg
+R100	frontend/uikit-gallery/src/InputField/icon-eth.svg	bold/frontend/uikit-gallery/src/InputField/icon-eth.svg
+R100	frontend/uikit-gallery/src/InputField/shared.tsx	bold/frontend/uikit-gallery/src/InputField/shared.tsx
+R100	frontend/uikit-gallery/src/Modal/1. Default.fixture.tsx	bold/frontend/uikit-gallery/src/Modal/1. Default.fixture.tsx
+R100	frontend/uikit-gallery/src/PillButton/1. Low.fixture.tsx	bold/frontend/uikit-gallery/src/PillButton/1. Low.fixture.tsx
+R100	frontend/uikit-gallery/src/PillButton/2. Medium.fixture.tsx	bold/frontend/uikit-gallery/src/PillButton/2. Medium.fixture.tsx
+R100	frontend/uikit-gallery/src/PillButton/3. High.fixture.tsx	bold/frontend/uikit-gallery/src/PillButton/3. High.fixture.tsx
+R100	frontend/uikit-gallery/src/PillButton/shared.tsx	bold/frontend/uikit-gallery/src/PillButton/shared.tsx
+R100	frontend/uikit-gallery/src/Radio/1. Default.fixture.tsx	bold/frontend/uikit-gallery/src/Radio/1. Default.fixture.tsx
+R100	frontend/uikit-gallery/src/Radio/2. Disabled.fixture.tsx	bold/frontend/uikit-gallery/src/Radio/2. Disabled.fixture.tsx
+R100	frontend/uikit-gallery/src/Slider/1. Default.fixture.tsx	bold/frontend/uikit-gallery/src/Slider/1. Default.fixture.tsx
+R100	frontend/uikit-gallery/src/Slider/2. Gradient.fixture.tsx	bold/frontend/uikit-gallery/src/Slider/2. Gradient.fixture.tsx
+R100	frontend/uikit-gallery/src/Slider/3. Chart.fixture.tsx	bold/frontend/uikit-gallery/src/Slider/3. Chart.fixture.tsx
+R100	frontend/uikit-gallery/src/Slider/4. Chart + Gradient.fixture.tsx	bold/frontend/uikit-gallery/src/Slider/4. Chart + Gradient.fixture.tsx
+R100	frontend/uikit-gallery/src/Slider/5. Disabled.fixture.tsx	bold/frontend/uikit-gallery/src/Slider/5. Disabled.fixture.tsx
+R100	frontend/uikit-gallery/src/Tabs/1. Default.fixture.tsx	bold/frontend/uikit-gallery/src/Tabs/1. Default.fixture.tsx
+R100	frontend/uikit-gallery/src/TextButton/1. Default.fixture.tsx	bold/frontend/uikit-gallery/src/TextButton/1. Default.fixture.tsx
+R100	frontend/uikit-gallery/src/Theme/1. Colors.fixture.tsx	bold/frontend/uikit-gallery/src/Theme/1. Colors.fixture.tsx
+R100	frontend/uikit-gallery/src/Theme/2. Theme.fixture.tsx	bold/frontend/uikit-gallery/src/Theme/2. Theme.fixture.tsx
+R100	frontend/uikit-gallery/src/Theme/shared.tsx	bold/frontend/uikit-gallery/src/Theme/shared.tsx
+R100	frontend/uikit-gallery/src/TokenIcon/1. Single.fixture.tsx	bold/frontend/uikit-gallery/src/TokenIcon/1. Single.fixture.tsx
+R100	frontend/uikit-gallery/src/TokenIcon/2. Group.fixture.tsx	bold/frontend/uikit-gallery/src/TokenIcon/2. Group.fixture.tsx
+R100	frontend/uikit-gallery/src/TokenIcon/shared.tsx	bold/frontend/uikit-gallery/src/TokenIcon/shared.tsx
+R100	frontend/uikit-gallery/src/Tooltip/1. Default.fixture.tsx	bold/frontend/uikit-gallery/src/Tooltip/1. Default.fixture.tsx
+R100	frontend/uikit-gallery/src/app/cosmos/[fixture]/page.tsx	bold/frontend/uikit-gallery/src/app/cosmos/[fixture]/page.tsx
+R100	frontend/uikit-gallery/src/app/layout.tsx	bold/frontend/uikit-gallery/src/app/layout.tsx
+R100	frontend/uikit-gallery/src/app/page.tsx	bold/frontend/uikit-gallery/src/app/page.tsx
+R100	frontend/uikit-gallery/src/cosmos.decorator.tsx	bold/frontend/uikit-gallery/src/cosmos.decorator.tsx
+R100	frontend/uikit-gallery/tsconfig.json	bold/frontend/uikit-gallery/tsconfig.json
+R100	frontend/uikit/.gitignore	bold/frontend/uikit/.gitignore
+R100	frontend/uikit/.oxlintrc.json	bold/frontend/uikit/.oxlintrc.json
+R100	frontend/uikit/LICENSE	bold/frontend/uikit/LICENSE
+R100	frontend/uikit/README.md	bold/frontend/uikit/README.md
+R100	frontend/uikit/package.json	bold/frontend/uikit/package.json
+R100	frontend/uikit/panda.config.ts	bold/frontend/uikit/panda.config.ts
+R100	frontend/uikit/scripts/update-icons.ts	bold/frontend/uikit/scripts/update-icons.ts
+R100	frontend/uikit/src/AddressField/AddressField.tsx	bold/frontend/uikit/src/AddressField/AddressField.tsx
+R100	frontend/uikit/src/Button/AnchorButton.tsx	bold/frontend/uikit/src/Button/AnchorButton.tsx
+R100	frontend/uikit/src/Button/Button.tsx	bold/frontend/uikit/src/Button/Button.tsx
+R100	frontend/uikit/src/Checkbox/Checkbox.tsx	bold/frontend/uikit/src/Checkbox/Checkbox.tsx
+R100	frontend/uikit/src/Dropdown/Dropdown.tsx	bold/frontend/uikit/src/Dropdown/Dropdown.tsx
+R100	frontend/uikit/src/Flex/HFlex.tsx	bold/frontend/uikit/src/Flex/HFlex.tsx
+R100	frontend/uikit/src/Flex/VFlex.tsx	bold/frontend/uikit/src/Flex/VFlex.tsx
+R100	frontend/uikit/src/FormField/FormField.tsx	bold/frontend/uikit/src/FormField/FormField.tsx
+R100	frontend/uikit/src/Input/TextInput.tsx	bold/frontend/uikit/src/Input/TextInput.tsx
+R099	frontend/uikit/src/InputField/InputField.tsx	bold/frontend/uikit/src/InputField/InputField.tsx
+R100	frontend/uikit/src/LoadingSurface/LoadingSurface.tsx	bold/frontend/uikit/src/LoadingSurface/LoadingSurface.tsx
+R100	frontend/uikit/src/Modal/Modal.tsx	bold/frontend/uikit/src/Modal/Modal.tsx
+R100	frontend/uikit/src/Modal/close.svg	bold/frontend/uikit/src/Modal/close.svg
+R100	frontend/uikit/src/PillButton/PillButton.tsx	bold/frontend/uikit/src/PillButton/PillButton.tsx
+R099	frontend/uikit/src/Radio/Radio.tsx	bold/frontend/uikit/src/Radio/Radio.tsx
+R100	frontend/uikit/src/Radio/RadioGroup.tsx	bold/frontend/uikit/src/Radio/RadioGroup.tsx
+R100	frontend/uikit/src/Root/Root.tsx	bold/frontend/uikit/src/Root/Root.tsx
+R100	frontend/uikit/src/ShowAfter/ShowAfter.tsx	bold/frontend/uikit/src/ShowAfter/ShowAfter.tsx
+R097	frontend/uikit/src/Slider/Slider.tsx	bold/frontend/uikit/src/Slider/Slider.tsx
+R100	frontend/uikit/src/StatusDot/StatusDot.tsx	bold/frontend/uikit/src/StatusDot/StatusDot.tsx
+R100	frontend/uikit/src/Tabs/Tabs.tsx	bold/frontend/uikit/src/Tabs/Tabs.tsx
+R100	frontend/uikit/src/TextButton/AnchorTextButton.tsx	bold/frontend/uikit/src/TextButton/AnchorTextButton.tsx
+R100	frontend/uikit/src/TextButton/TextButton.tsx	bold/frontend/uikit/src/TextButton/TextButton.tsx
+R100	frontend/uikit/src/Theme/Theme.tsx	bold/frontend/uikit/src/Theme/Theme.tsx
+R100	frontend/uikit/src/TokenIcon/TokenIcon.tsx	bold/frontend/uikit/src/TokenIcon/TokenIcon.tsx
+R100	frontend/uikit/src/Tooltip/InfoTooltip.tsx	bold/frontend/uikit/src/Tooltip/InfoTooltip.tsx
+R100	frontend/uikit/src/Tooltip/Tooltip.tsx	bold/frontend/uikit/src/Tooltip/Tooltip.tsx
+R100	frontend/uikit/src/UiKit/UiKit.tsx	bold/frontend/uikit/src/UiKit/UiKit.tsx
+R100	frontend/uikit/src/eth-utils.ts	bold/frontend/uikit/src/eth-utils.ts
+R100	frontend/uikit/src/icons/IconAccount.tsx	bold/frontend/uikit/src/icons/IconAccount.tsx
+R100	frontend/uikit/src/icons/IconArrowBack.tsx	bold/frontend/uikit/src/icons/IconArrowBack.tsx
+R100	frontend/uikit/src/icons/IconArrowRight.tsx	bold/frontend/uikit/src/icons/IconArrowRight.tsx
+R100	frontend/uikit/src/icons/IconBorrow.tsx	bold/frontend/uikit/src/icons/IconBorrow.tsx
+R100	frontend/uikit/src/icons/IconChevronDown.tsx	bold/frontend/uikit/src/icons/IconChevronDown.tsx
+R100	frontend/uikit/src/icons/IconChevronSmallUp.tsx	bold/frontend/uikit/src/icons/IconChevronSmallUp.tsx
+R100	frontend/uikit/src/icons/IconChevronUp.tsx	bold/frontend/uikit/src/icons/IconChevronUp.tsx
+R100	frontend/uikit/src/icons/IconCopy.tsx	bold/frontend/uikit/src/icons/IconCopy.tsx
+R100	frontend/uikit/src/icons/IconCross.tsx	bold/frontend/uikit/src/icons/IconCross.tsx
+R100	frontend/uikit/src/icons/IconDashboard.tsx	bold/frontend/uikit/src/icons/IconDashboard.tsx
+R100	frontend/uikit/src/icons/IconDownvote.tsx	bold/frontend/uikit/src/icons/IconDownvote.tsx
+R100	frontend/uikit/src/icons/IconEarn.tsx	bold/frontend/uikit/src/icons/IconEarn.tsx
+R100	frontend/uikit/src/icons/IconEdit.tsx	bold/frontend/uikit/src/icons/IconEdit.tsx
+R100	frontend/uikit/src/icons/IconEllipsis.tsx	bold/frontend/uikit/src/icons/IconEllipsis.tsx
+R100	frontend/uikit/src/icons/IconExternal.tsx	bold/frontend/uikit/src/icons/IconExternal.tsx
+R100	frontend/uikit/src/icons/IconEye.tsx	bold/frontend/uikit/src/icons/IconEye.tsx
+R100	frontend/uikit/src/icons/IconGas.tsx	bold/frontend/uikit/src/icons/IconGas.tsx
+R100	frontend/uikit/src/icons/IconInfo.tsx	bold/frontend/uikit/src/icons/IconInfo.tsx
+R100	frontend/uikit/src/icons/IconLeverage.tsx	bold/frontend/uikit/src/icons/IconLeverage.tsx
+R100	frontend/uikit/src/icons/IconNft.tsx	bold/frontend/uikit/src/icons/IconNft.tsx
+R100	frontend/uikit/src/icons/IconPlus.tsx	bold/frontend/uikit/src/icons/IconPlus.tsx
+R100	frontend/uikit/src/icons/IconSearch.tsx	bold/frontend/uikit/src/icons/IconSearch.tsx
+R100	frontend/uikit/src/icons/IconSettings.tsx	bold/frontend/uikit/src/icons/IconSettings.tsx
+R100	frontend/uikit/src/icons/IconStake.tsx	bold/frontend/uikit/src/icons/IconStake.tsx
+R100	frontend/uikit/src/icons/IconSuggestion.tsx	bold/frontend/uikit/src/icons/IconSuggestion.tsx
+R100	frontend/uikit/src/icons/IconUpvote.tsx	bold/frontend/uikit/src/icons/IconUpvote.tsx
+R100	frontend/uikit/src/icons/IconWarning.tsx	bold/frontend/uikit/src/icons/IconWarning.tsx
+R096	frontend/uikit/src/icons/index.ts	bold/frontend/uikit/src/icons/index.ts
+R100	frontend/uikit/src/icons/svg/account.svg	bold/frontend/uikit/src/icons/svg/account.svg
+R100	frontend/uikit/src/icons/svg/arrow-back.svg	bold/frontend/uikit/src/icons/svg/arrow-back.svg
+R100	frontend/uikit/src/icons/svg/arrow-right.svg	bold/frontend/uikit/src/icons/svg/arrow-right.svg
+R100	frontend/uikit/src/icons/svg/borrow.svg	bold/frontend/uikit/src/icons/svg/borrow.svg
+R100	frontend/uikit/src/icons/svg/chevron-down.svg	bold/frontend/uikit/src/icons/svg/chevron-down.svg
+R100	frontend/uikit/src/icons/svg/chevron-small-up.svg	bold/frontend/uikit/src/icons/svg/chevron-small-up.svg
+R100	frontend/uikit/src/icons/svg/chevron-up.svg	bold/frontend/uikit/src/icons/svg/chevron-up.svg
+R100	frontend/uikit/src/icons/svg/copy.svg	bold/frontend/uikit/src/icons/svg/copy.svg
+R100	frontend/uikit/src/icons/svg/cross.svg	bold/frontend/uikit/src/icons/svg/cross.svg
+R100	frontend/uikit/src/icons/svg/dashboard.svg	bold/frontend/uikit/src/icons/svg/dashboard.svg
+R100	frontend/uikit/src/icons/svg/downvote.svg	bold/frontend/uikit/src/icons/svg/downvote.svg
+R100	frontend/uikit/src/icons/svg/earn.svg	bold/frontend/uikit/src/icons/svg/earn.svg
+R100	frontend/uikit/src/icons/svg/edit.svg	bold/frontend/uikit/src/icons/svg/edit.svg
+R100	frontend/uikit/src/icons/svg/ellipsis.svg	bold/frontend/uikit/src/icons/svg/ellipsis.svg
+R100	frontend/uikit/src/icons/svg/external.svg	bold/frontend/uikit/src/icons/svg/external.svg
+R100	frontend/uikit/src/icons/svg/eye.svg	bold/frontend/uikit/src/icons/svg/eye.svg
+R100	frontend/uikit/src/icons/svg/gas.svg	bold/frontend/uikit/src/icons/svg/gas.svg
+R100	frontend/uikit/src/icons/svg/info.svg	bold/frontend/uikit/src/icons/svg/info.svg
+R100	frontend/uikit/src/icons/svg/leverage.svg	bold/frontend/uikit/src/icons/svg/leverage.svg
+R100	frontend/uikit/src/icons/svg/nft.svg	bold/frontend/uikit/src/icons/svg/nft.svg
+R100	frontend/uikit/src/icons/svg/plus.svg	bold/frontend/uikit/src/icons/svg/plus.svg
+R100	frontend/uikit/src/icons/svg/search.svg	bold/frontend/uikit/src/icons/svg/search.svg
+R100	frontend/uikit/src/icons/svg/settings.svg	bold/frontend/uikit/src/icons/svg/settings.svg
+R100	frontend/uikit/src/icons/svg/stake.svg	bold/frontend/uikit/src/icons/svg/stake.svg
+R100	frontend/uikit/src/icons/svg/suggestion.svg	bold/frontend/uikit/src/icons/svg/suggestion.svg
+R100	frontend/uikit/src/icons/svg/upvote.svg	bold/frontend/uikit/src/icons/svg/upvote.svg
+R100	frontend/uikit/src/icons/svg/warning.svg	bold/frontend/uikit/src/icons/svg/warning.svg
+R100	frontend/uikit/src/index.css	bold/frontend/uikit/src/index.css
+R096	frontend/uikit/src/index.ts	bold/frontend/uikit/src/index.ts
+R100	frontend/uikit/src/math-utils.ts	bold/frontend/uikit/src/math-utils.ts
+R100	frontend/uikit/src/react-spring-web.d.ts	bold/frontend/uikit/src/react-spring-web.d.ts
+R100	frontend/uikit/src/react-utils.ts	bold/frontend/uikit/src/react-utils.ts
+R100	frontend/uikit/src/token-icons/bold.svg	bold/frontend/uikit/src/token-icons/bold.svg
+R100	frontend/uikit/src/token-icons/default.svg	bold/frontend/uikit/src/token-icons/default.svg
+R100	frontend/uikit/src/token-icons/eth.svg	bold/frontend/uikit/src/token-icons/eth.svg
+R100	frontend/uikit/src/token-icons/lqty.svg	bold/frontend/uikit/src/token-icons/lqty.svg
+R100	frontend/uikit/src/token-icons/lusd.svg	bold/frontend/uikit/src/token-icons/lusd.svg
+R100	frontend/uikit/src/token-icons/oseth.svg	bold/frontend/uikit/src/token-icons/oseth.svg
+R100	frontend/uikit/src/token-icons/reth.svg	bold/frontend/uikit/src/token-icons/reth.svg
+R100	frontend/uikit/src/token-icons/sbold.svg	bold/frontend/uikit/src/token-icons/sbold.svg
+R100	frontend/uikit/src/token-icons/sweth.svg	bold/frontend/uikit/src/token-icons/sweth.svg
+R100	frontend/uikit/src/token-icons/wsteth.svg	bold/frontend/uikit/src/token-icons/wsteth.svg
+R083	frontend/uikit/src/tokens.ts	bold/frontend/uikit/src/tokens.ts
+R100	frontend/uikit/src/types.ts	bold/frontend/uikit/src/types.ts
+R100	frontend/uikit/src/utils.ts	bold/frontend/uikit/src/utils.ts
+R100	frontend/uikit/src/vite-env.d.ts	bold/frontend/uikit/src/vite-env.d.ts
+R100	frontend/uikit/tsconfig.json	bold/frontend/uikit/tsconfig.json
+R100	frontend/uikit/tsconfig.node.json	bold/frontend/uikit/tsconfig.node.json
+R100	frontend/uikit/vite.config.ts	bold/frontend/uikit/vite.config.ts
+R100	package.json	bold/package.json
+R099	pnpm-lock.yaml	bold/pnpm-lock.yaml
+R100	pnpm-workspace.yaml	bold/pnpm-workspace.yaml
+R100	subgraph/.gitignore	bold/subgraph/.gitignore
+R100	subgraph/LICENSE	bold/subgraph/LICENSE
+R100	subgraph/README.md	bold/subgraph/README.md
+R100	subgraph/cli/deploy-subgraph.ts	bold/subgraph/cli/deploy-subgraph.ts
+R100	subgraph/cli/start-graph.ts	bold/subgraph/cli/start-graph.ts
+R100	subgraph/deploy-subgraph	bold/subgraph/deploy-subgraph
+R100	subgraph/docker-compose.yml	bold/subgraph/docker-compose.yml
+R100	subgraph/networks.json	bold/subgraph/networks.json
+R100	subgraph/package.json	bold/subgraph/package.json
+R088	subgraph/schema.graphql	bold/subgraph/schema.graphql
+R100	subgraph/scripts/brackets.ts	bold/subgraph/scripts/brackets.ts
+R100	subgraph/scripts/graphql.ts	bold/subgraph/scripts/graphql.ts
+R100	subgraph/scripts/total-debt.ts	bold/subgraph/scripts/total-debt.ts
+R100	subgraph/scripts/troves.ts	bold/subgraph/scripts/troves.ts
+R088	subgraph/src/BoldToken.mapping.ts	bold/subgraph/src/BoldToken.mapping.ts
+R100	subgraph/src/Governance.mapping.ts	bold/subgraph/src/Governance.mapping.ts
+R087	subgraph/src/TroveManager.mapping.ts	bold/subgraph/src/TroveManager.mapping.ts
+R094	subgraph/src/TroveNFT.mapping.ts	bold/subgraph/src/TroveNFT.mapping.ts
+R100	subgraph/start-graph	bold/subgraph/start-graph
+R087	subgraph/subgraph.yaml	bold/subgraph/subgraph.yaml
+R100	subgraph/tsconfig.json	bold/subgraph/tsconfig.json
+R100	vercel.json	bold/vercel.json
+D	contracts/broadcast/DeployOnlyExchangeHelpersV2.s.sol/1/run-1757655932243.json
+D	contracts/broadcast/DeployOnlyExchangeHelpersV2.s.sol/1/run-latest.json
+D	contracts/broadcast/DeployOnlyExchangeHelpersV2.s.sol/11155111/run-1757656902589.json
+D	contracts/broadcast/DeployOnlyExchangeHelpersV2.s.sol/11155111/run-latest.json
+D	contracts/broadcast/DeployRedemptionHelper.s.sol/1/run-1762510760071.json
+D	contracts/broadcast/DeployRedemptionHelper.s.sol/1/run-latest.json
+D	contracts/broadcast/DeployRedemptionHelper.s.sol/11155111/run-1761890347448.json
+D	contracts/broadcast/DeployRedemptionHelper.s.sol/11155111/run-latest.json
+D	contracts/cutoff
+D	contracts/lib/Solady
+D	contracts/lib/V2-gov
+D	contracts/lib/forge-std
+D	contracts/lib/openzeppelin-contracts
+D	contracts/remappings.txt
+D	contracts/script/Dependencies/GovernanceProxy.sol
+D	contracts/script/DeployGovernance.s.sol
+D	contracts/script/DeployLiquity2.s.sol
+D	contracts/script/DeployOnlyExchangeHelpers.s.sol
+D	contracts/script/DeployOnlyExchangeHelpersV2.s.sol
+D	contracts/script/DeployRedemptionHelper.s.sol
+D	contracts/script/DeploySomeCurvePools.s.sol
+D	contracts/script/GenerateStakingRewards.s.sol
+D	contracts/script/Interfaces/Balancer/IVault.sol
+D	contracts/script/Interfaces/Balancer/IWeightedPool.sol
+D	contracts/script/LiquidateTrove.s.sol
+D	contracts/script/OpenTroves.s.sol
+D	contracts/script/ProvideCurveLiquidity.s.sol
+D	contracts/script/ProvideUniV3Liquidity.s.sol
+D	contracts/script/RedeemCollateral.s.sol
+D	contracts/script/RedeployWETHZappers.s.sol
+D	contracts/script/bold-vanity.ts
+D	contracts/script/coverage.sh
+D	contracts/script/governance.ts
+D	contracts/src/BoldToken.sol
+D	contracts/src/DebtInFrontHelper.sol
+D	contracts/src/Dependencies/Constants.sol
+D	contracts/src/Interfaces/IDebtInFrontHelper.sol
+D	contracts/src/Interfaces/IMainnetPriceFeed.sol
+D	contracts/src/Interfaces/IPriceFeed.sol
+D	contracts/src/Interfaces/IRETHPriceFeed.sol
+D	contracts/src/Interfaces/IRETHToken.sol
+D	contracts/src/Interfaces/IRedemptionHelper.sol
+D	contracts/src/Interfaces/IWSTETH.sol
+D	contracts/src/Interfaces/IWSTETHPriceFeed.sol
+D	contracts/src/PriceFeeds/CompositePriceFeed.sol
+D	contracts/src/PriceFeeds/MainnetPriceFeedBase.sol
+D	contracts/src/PriceFeeds/RETHPriceFeed.sol
+D	contracts/src/PriceFeeds/WETHPriceFeed.sol
+D	contracts/src/PriceFeeds/WSTETHPriceFeed.sol
+D	contracts/src/RedemptionHelper.sol
+D	contracts/src/Zappers/BaseZapper.sol
+D	contracts/src/Zappers/GasCompZapper.sol
+D	contracts/src/Zappers/Interfaces/IExchange.sol
+D	contracts/src/Zappers/Interfaces/IExchangeHelpers.sol
+D	contracts/src/Zappers/Interfaces/IExchangeHelpersV2.sol
+D	contracts/src/Zappers/Interfaces/IFlashLoanProvider.sol
+D	contracts/src/Zappers/Interfaces/IFlashLoanReceiver.sol
+D	contracts/src/Zappers/Interfaces/ILeverageZapper.sol
+D	contracts/src/Zappers/Interfaces/IZapper.sol
+D	contracts/src/Zappers/LeftoversSweep.sol
+D	contracts/src/Zappers/LeverageLSTZapper.sol
+D	contracts/src/Zappers/LeverageWETHZapper.sol
+D	contracts/src/Zappers/Modules/Exchanges/Curve/ICurveFactory.sol
+D	contracts/src/Zappers/Modules/Exchanges/Curve/ICurvePool.sol
+D	contracts/src/Zappers/Modules/Exchanges/Curve/ICurveStableswapNGFactory.sol
+D	contracts/src/Zappers/Modules/Exchanges/Curve/ICurveStableswapNGPool.sol
+D	contracts/src/Zappers/Modules/Exchanges/CurveExchange.sol
+D	contracts/src/Zappers/Modules/Exchanges/HybridCurveUniV3Exchange.sol
+D	contracts/src/Zappers/Modules/Exchanges/HybridCurveUniV3ExchangeHelpers.sol
+D	contracts/src/Zappers/Modules/Exchanges/HybridCurveUniV3ExchangeHelpersV2.sol
+D	contracts/src/Zappers/Modules/Exchanges/UniV3Exchange.sol
+D	contracts/src/Zappers/Modules/Exchanges/UniswapV3/INonfungiblePositionManager.sol
+D	contracts/src/Zappers/Modules/Exchanges/UniswapV3/IPoolInitializer.sol
+D	contracts/src/Zappers/Modules/Exchanges/UniswapV3/IQuoterV2.sol
+D	contracts/src/Zappers/Modules/Exchanges/UniswapV3/ISwapRouter.sol
+D	contracts/src/Zappers/Modules/Exchanges/UniswapV3/IUniswapV3Factory.sol
+D	contracts/src/Zappers/Modules/Exchanges/UniswapV3/IUniswapV3Pool.sol
+D	contracts/src/Zappers/Modules/Exchanges/UniswapV3/UniPriceConverter.sol
+D	contracts/src/Zappers/Modules/FlashLoans/Balancer/vault/IFlashLoanRecipient.sol
+D	contracts/src/Zappers/Modules/FlashLoans/Balancer/vault/IVault.sol
+D	contracts/src/Zappers/Modules/FlashLoans/BalancerFlashLoan.sol
+D	contracts/src/Zappers/WETHZapper.sol
+D	contracts/test/AnchoredSPInvariantsTest.t.sol
+D	contracts/test/DebtInFrontHelper.t.sol
+D	contracts/test/E2E.t.sol
+D	contracts/test/ExchangeHelpers.t.sol
+D	contracts/test/InitiativeSmarDEX.t.sol
+D	contracts/test/InitiativeUniV4Merkl.t.sol
+D	contracts/test/OracleMainnet.t.sol
+D	contracts/test/RedemptionHelper.t.sol
+D	contracts/test/TestContracts/BoldTokenTester.sol
+D	contracts/test/TestContracts/Deployment.t.sol
+D	contracts/test/TestContracts/GasGuzzlerOracle.sol
+D	contracts/test/TestContracts/GasGuzzlerToken.sol
+D	contracts/test/TestContracts/Interfaces/IPriceFeedMock.sol
+D	contracts/test/TestContracts/Interfaces/IPriceFeedTestnet.sol
+D	contracts/test/TestContracts/PriceFeedMock.sol
+D	contracts/test/TestContracts/PriceFeedTestnet.sol
+D	contracts/test/TestContracts/RETHTokenMock.sol
+D	contracts/test/TestContracts/WSTETHTokenMock.sol
+D	contracts/test/Utils/E2EHelpers.sol
+D	contracts/test/Utils/UniPriceConverterLog.sol
+D	contracts/test/zapperGasComp.t.sol
+D	contracts/test/zapperLeverage.t.sol
+D	contracts/test/zapperWETH.t.sol
+D	frontend/app/eslint.config.js
+D	frontend/app/src/abi/DebtInFrontHelper.ts
+D	frontend/app/src/abi/IExchangeHelpersV2.ts
+D	frontend/app/src/abi/RedemptionHelper.ts
+D	frontend/app/src/abi/V1StabilityPool.ts
+D	frontend/app/src/comps/EarnPositionSummary/YboldPositionSummary.tsx
+D	frontend/app/src/comps/InterestRateField/DelegateModal.tsx
+D	frontend/app/src/comps/LegacyPositionsBanner/LegacyPositionsBanner.tsx
+D	frontend/app/src/comps/LeverageField/LeverageField.tsx
+D	frontend/app/src/comps/Positions/PositionCardBorrow.tsx
+D	frontend/app/src/comps/Positions/PositionCardLeverage.tsx
+D	frontend/app/src/comps/Positions/PositionCardSecondaryContent.tsx
+D	frontend/app/src/comps/Positions/Positions.tsx
+D	frontend/app/src/comps/TagConfirmed/TagConfirmed.tsx
+D	frontend/app/src/comps/V1StabilityPoolBanner/V1StabilityPoolBanner.tsx
+D	frontend/app/src/comps/V1StakingBanner/V1StakingBanner.tsx
+D	frontend/app/src/liquity-delegate.ts
+D	frontend/app/src/liquity-leverage.ts
+D	frontend/app/src/query-utils.ts
+D	frontend/app/src/react-utils.ts
+D	frontend/app/src/screens/EarnPoolScreen/PanelClaimRewards.tsx
+D	frontend/app/src/screens/EarnPoolScreen/PanelCompound.tsx
+D	frontend/app/src/screens/EarnPoolScreen/components/Rewards.tsx
+D	frontend/app/src/screens/LeverageScreen/LeverageScreen.tsx
+D	frontend/app/src/screens/LoanScreen/PanelUpdateLeveragePosition.tsx
+D	frontend/app/src/screens/RedeemScreen/RedeemScreen.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/PanelVoting.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/CastVotes/CastVotes.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/CastVotes/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/CutoffWarning/CutoffWarning.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/CutoffWarning/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/EpochInitiativesTable.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/TableBody.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/InitiativeRow.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/AmountPresentation/AmountPresentation.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/AmountPresentation/hooks/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/AmountPresentation/hooks/useProjectedUpvoteShares/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/AmountPresentation/hooks/useProjectedUpvoteShares/useProjectedUpvoteShares.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/AmountPresentation/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/BribeInfo/BribeInfo.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/BribeInfo/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/InitiativeStatusTag/InitiativeStatusTag.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/InitiativeStatusTag/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/Voting.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/Vote/Vote.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/Vote/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/VoteAction.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/components/VoteButton/VoteButton.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/components/VoteButton/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/components/VoteDisplay/VoteDisplay.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/components/VoteDisplay/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/components/VoteInput/VoteInput.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/components/VoteInput/hooks/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/components/VoteInput/hooks/useSetInputFocus/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/components/VoteInput/hooks/useSetInputFocus/useSetInputFocus.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/components/VoteInput/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/hooks/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/hooks/useGetOutlineStyles/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/hooks/useGetOutlineStyles/useGetOutlineStyles.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/hooks/useHasInputError/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/hooks/useHasInputError/useHasInputError.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/hooks/useVoteController/hooks/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/hooks/useVoteController/hooks/useGetVoteButtonStatus/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/hooks/useVoteController/hooks/useGetVoteButtonStatus/useGetVoteButtonStatus.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/hooks/useVoteController/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/hooks/useVoteController/useVoteController.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/components/VoteAction/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/hooks/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/hooks/useGetAllocationsByAddress/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/hooks/useGetAllocationsByAddress/useGetAllocationsByAddress.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/components/Voting/types.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/constants.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/utils/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/components/InitiativeRow/utils/initiativeStatusLabel.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/hooks/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/hooks/useActiveInitiatives/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/hooks/useActiveInitiatives/useActiveInitiatives.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/hooks/useCalculateVotePct/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/hooks/useCalculateVotePct/useCalculateVotePct.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableBody/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableFooter/TableFooter.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableFooter/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableHead/TableHead.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/components/TableHead/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochInitiativesTable/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochVotingStatus/EpochVotingStatus.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/EpochVotingStatus/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/Header/Header.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/Header/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/Loader/Loader.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/Loader/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/VotingResources/VotingResources.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/VotingResources/VotingResourcesToggle.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/VotingResources/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/VotingRoundTimer/VotingRoundTimer.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/components/VotingRoundTimer/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/hooks/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/hooks/useHasAllocations/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/hooks/useHasAllocations/useHasAllocations.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/hooks/useIsAllocationChanged/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/hooks/useIsAllocationChanged/useIsAllocationChanged.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/hooks/useIsAllocationChanged/utils/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/hooks/useIsAllocationChanged/utils/isAllocationsChanged.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/hooks/useIsPeriodCutoff/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/hooks/useIsPeriodCutoff/useIsPeriodCutoff.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/hooks/useRemainingVotingPower/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/hooks/useRemainingVotingPower/useRemainingVotingPower.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/hooks/useValidateVoteInput/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/hooks/useValidateVoteInput/useValidateVoteInput.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/context.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/hooks/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/hooks/useVotingState/hooks/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/hooks/useVotingState/hooks/useGetInitiativesSummary/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/hooks/useVotingState/hooks/useGetInitiativesSummary/useGetInitiativesSummary.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/hooks/useVotingState/hooks/useGetVoteAllocations/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/hooks/useVotingState/hooks/useGetVoteAllocations/useGetVoteAllocations.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/hooks/useVotingState/hooks/useGetVoteAllocations/utils/buildVoteAllocations.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/hooks/useVotingState/hooks/useGetVoteAllocations/utils/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/hooks/useVotingState/hooks/useGetVotingState/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/hooks/useVotingState/hooks/useGetVotingState/useGetVotingState.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/hooks/useVotingState/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/hooks/useVotingState/useVotingState.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/hooks/useVotingStateContext/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/hooks/useVotingStateContext/useVotingStateContext.tsx
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/providers/PanelVotingProvider/index.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/utils/filterVoteAllocationsForSubmission.ts
+D	frontend/app/src/screens/StakeScreen/components/PanelVoting/utils/index.ts
+D	frontend/app/src/screens/StakeScreen/utils/index.ts
+D	frontend/app/src/screens/StakeScreen/utils/isInitiativeStatusActive.ts
+D	frontend/app/src/screens/TransactionsScreen/LoanCard/components/OpenLoan/components/NetValue/NetValue.tsx
+D	frontend/app/src/screens/TransactionsScreen/LoanCard/components/OpenLoan/components/NetValue/index.ts
+D	frontend/app/src/tx-flows/redeemCollateral.tsx
+D	frontend/app/src/tx-flows/unstakeDeposit.tsx
+D	frontend/app/src/ybold.ts
+D	frontend/uikit-gallery/package-lock.json
+D	frontend/uikit/src/icons/IconCheckmark.tsx
+D	frontend/uikit/src/icons/svg/checkmark.svg
+D	frontend/uikit/src/token-icons/ybold.svg
+A	mento-core/.commitlintrc.yml
+A	mento-core/.env.example
+A	mento-core/.github/ISSUE_TEMPLATE/bug_report.md
+A	mento-core/.github/ISSUE_TEMPLATE/feature_request.md
+A	mento-core/.github/pull_request_template.md
+A	mento-core/.github/workflows/echidna.yaml
+A	mento-core/.github/workflows/fork-tests.yaml
+A	mento-core/.github/workflows/lint_test.yaml
+A	mento-core/.github/workflows/slither.yaml
+A	mento-core/.github/workflows/storage-layout.yaml
+A	mento-core/.gitignore
+A	mento-core/.gitmodules
+A	mento-core/.husky/commit-msg
+A	mento-core/.husky/pre-push
+A	mento-core/.lintstagedrc
+A	mento-core/.prettierignore
+A	mento-core/.prettierrc.yml
+A	mento-core/.rgignore
+A	mento-core/.solhint.json
+A	mento-core/.solhintignore
+A	mento-core/CODE_OF_CONDUCT.md
+A	mento-core/CONTRIBUTING.md
+A	mento-core/LICENSE
+A	mento-core/README.md
+A	mento-core/bin/check-contracts.sh
+A	mento-core/bin/storage-show.sh
+A	mento-core/contracts/common/IERC20MintableBurnable.sol
+A	mento-core/contracts/common/SafeERC20MintableBurnable.sol
+A	mento-core/contracts/common/UsingRegistry.sol
+A	mento-core/contracts/goodDollar/BancorExchangeProvider.sol
+A	mento-core/contracts/goodDollar/BancorFormula.sol
+A	mento-core/contracts/goodDollar/GoodDollarExchangeProvider.sol
+A	mento-core/contracts/goodDollar/GoodDollarExpansionController.sol
+A	mento-core/contracts/goodDollar/interfaces/IGoodProtocol.sol
+A	mento-core/contracts/governance/Airgrab.sol
+A	mento-core/contracts/governance/Emission.sol
+A	mento-core/contracts/governance/GovernanceFactory.sol
+A	mento-core/contracts/governance/Mento Governance Diagram.pdf
+A	mento-core/contracts/governance/MentoGovernor.sol
+A	mento-core/contracts/governance/MentoToken.sol
+A	mento-core/contracts/governance/TimelockController.sol
+A	mento-core/contracts/governance/deployers/AirgrabDeployerLib.sol
+A	mento-core/contracts/governance/deployers/EmissionDeployerLib.sol
+A	mento-core/contracts/governance/deployers/LockingDeployerLib.sol
+A	mento-core/contracts/governance/deployers/MentoGovernorDeployerLib.sol
+A	mento-core/contracts/governance/deployers/MentoTokenDeployerLib.sol
+A	mento-core/contracts/governance/deployers/ProxyDeployerLib.sol
+A	mento-core/contracts/governance/deployers/TimelockControllerDeployerLib.sol
+A	mento-core/contracts/governance/locking/Locking.sol
+A	mento-core/contracts/governance/locking/LockingBase.sol
+A	mento-core/contracts/governance/locking/LockingRelock.sol
+A	mento-core/contracts/governance/locking/LockingVotes.sol
+A	mento-core/contracts/governance/locking/interfaces/ILocking.sol
+A	mento-core/contracts/governance/locking/libs/LibBrokenLine.sol
+A	mento-core/contracts/governance/locking/libs/LibIntMapping.sol
+A	mento-core/contracts/import.sol
+A	mento-core/contracts/interfaces/IBancorExchangeProvider.sol
+A	mento-core/contracts/interfaces/IBiPoolManager.sol
+A	mento-core/contracts/interfaces/IBreaker.sol
+A	mento-core/contracts/interfaces/IBreakerBox.sol
+A	mento-core/contracts/interfaces/IBroker.sol
+A	mento-core/contracts/interfaces/IBrokerAdmin.sol
+A	mento-core/contracts/interfaces/ICDPLiquidityStrategy.sol
+A	mento-core/contracts/interfaces/ICeloProxy.sol
+A	mento-core/contracts/interfaces/ICeloToken.sol
+A	mento-core/contracts/interfaces/IChainlinkRelayer.sol
+A	mento-core/contracts/interfaces/IChainlinkRelayerFactory.sol
+A	mento-core/contracts/interfaces/ICreateX.sol
+A	mento-core/contracts/interfaces/IERC20.sol
+A	mento-core/contracts/interfaces/IExchange.sol
+A	mento-core/contracts/interfaces/IExchangeProvider.sol
+A	mento-core/contracts/interfaces/IFPMM.sol
+A	mento-core/contracts/interfaces/IFPMMCallee.sol
+A	mento-core/contracts/interfaces/IFPMMFactory.sol
+A	mento-core/contracts/interfaces/IFactoryRegistry.sol
+A	mento-core/contracts/interfaces/IFeeCurrency.sol
+A	mento-core/contracts/interfaces/IGoldToken.sol
+A	mento-core/contracts/interfaces/IGoodDollarExchangeProvider.sol
+A	mento-core/contracts/interfaces/IGoodDollarExpansionController.sol
+A	mento-core/contracts/interfaces/ILiquidityStrategy.sol
+A	mento-core/contracts/interfaces/IMarketHoursBreaker.sol
+A	mento-core/contracts/interfaces/IMedianDeltaBreaker.sol
+A	mento-core/contracts/interfaces/IOracleAdapter.sol
+A	mento-core/contracts/interfaces/IOwnable.sol
+A	mento-core/contracts/interfaces/IPricingModule.sol
+A	mento-core/contracts/interfaces/IProxyAdmin.sol
+A	mento-core/contracts/interfaces/IReserve.sol
+A	mento-core/contracts/interfaces/IReserveLiquidityStrategy.sol
+A	mento-core/contracts/interfaces/IReserveV2.sol
+A	mento-core/contracts/interfaces/ISortedOracles.sol
+A	mento-core/contracts/interfaces/IStableTokenSpoke.sol
+A	mento-core/contracts/interfaces/IStableTokenV2.sol
+A	mento-core/contracts/interfaces/IStableTokenV2DeprecatedInit.sol
+A	mento-core/contracts/interfaces/IStableTokenV3.sol
+A	mento-core/contracts/interfaces/ITradingLimits.sol
+A	mento-core/contracts/interfaces/ITradingLimitsV2.sol
+A	mento-core/contracts/interfaces/ITransparentProxy.sol
+A	mento-core/contracts/interfaces/IValueDeltaBreaker.sol
+A	mento-core/contracts/interfaces/IVirtualPoolFactory.sol
+A	mento-core/contracts/libraries/LiquidityStrategyTypes.sol
+A	mento-core/contracts/libraries/TradingLimits.sol
+A	mento-core/contracts/libraries/TradingLimitsV2.sol
+A	mento-core/contracts/liquidityStrategies/CDPLiquidityStrategy.sol
+A	mento-core/contracts/liquidityStrategies/LiquidityStrategy.sol
+A	mento-core/contracts/liquidityStrategies/ReserveLiquidityStrategy.sol
+A	mento-core/contracts/oracles/BreakerBox.sol
+A	mento-core/contracts/oracles/ChainlinkRelayerFactory.sol
+A	mento-core/contracts/oracles/ChainlinkRelayerFactoryProxy.sol
+A	mento-core/contracts/oracles/ChainlinkRelayerFactoryProxyAdmin.sol
+A	mento-core/contracts/oracles/ChainlinkRelayerV1.sol
+A	mento-core/contracts/oracles/OracleAdapter.sol
+A	mento-core/contracts/oracles/breakers/MarketHoursBreaker.sol
+A	mento-core/contracts/oracles/breakers/MedianDeltaBreaker.sol
+A	mento-core/contracts/oracles/breakers/ValueDeltaBreaker.sol
+A	mento-core/contracts/oracles/breakers/WithCooldown.sol
+A	mento-core/contracts/oracles/breakers/WithThreshold.sol
+A	mento-core/contracts/swap/BiPoolManager.sol
+A	mento-core/contracts/swap/BiPoolManagerProxy.sol
+A	mento-core/contracts/swap/Broker.sol
+A	mento-core/contracts/swap/BrokerProxy.sol
+A	mento-core/contracts/swap/ConstantProductPricingModule.sol
+A	mento-core/contracts/swap/ConstantSumPricingModule.sol
+A	mento-core/contracts/swap/FPMM.sol
+A	mento-core/contracts/swap/FPMMFactory.sol
+A	mento-core/contracts/swap/FPMMProxy.sol
+A	mento-core/contracts/swap/FactoryRegistry.sol
+A	mento-core/contracts/swap/OneToOneFPMM.sol
+A	mento-core/contracts/swap/Reserve.sol
+A	mento-core/contracts/swap/ReserveProxy.sol
+A	mento-core/contracts/swap/ReserveV2.sol
+A	mento-core/contracts/swap/router/Router.sol
+A	mento-core/contracts/swap/router/interfaces/IERC20.sol
+A	mento-core/contracts/swap/router/interfaces/IERC20Permit.sol
+A	mento-core/contracts/swap/router/interfaces/IRPool.sol
+A	mento-core/contracts/swap/router/interfaces/IRPoolFactory.sol
+A	mento-core/contracts/swap/router/interfaces/IRouter.sol
+A	mento-core/contracts/swap/router/utils/Address.sol
+A	mento-core/contracts/swap/router/utils/Context.sol
+A	mento-core/contracts/swap/router/utils/ERC2771.sol
+A	mento-core/contracts/swap/router/utils/Math.sol
+A	mento-core/contracts/swap/router/utils/SafeERC20.sol
+A	mento-core/contracts/swap/virtual/VirtualPool.sol
+A	mento-core/contracts/swap/virtual/VirtualPoolFactory.sol
+A	mento-core/contracts/tokens/StableTokenAUDProxy.sol
+A	mento-core/contracts/tokens/StableTokenBRLProxy.sol
+A	mento-core/contracts/tokens/StableTokenCADProxy.sol
+A	mento-core/contracts/tokens/StableTokenCHFProxy.sol
+A	mento-core/contracts/tokens/StableTokenCOPProxy.sol
+A	mento-core/contracts/tokens/StableTokenEURProxy.sol
+A	mento-core/contracts/tokens/StableTokenGBPProxy.sol
+A	mento-core/contracts/tokens/StableTokenGHSProxy.sol
+A	mento-core/contracts/tokens/StableTokenINRProxy.sol
+A	mento-core/contracts/tokens/StableTokenJPYProxy.sol
+A	mento-core/contracts/tokens/StableTokenKESProxy.sol
+A	mento-core/contracts/tokens/StableTokenNGNProxy.sol
+A	mento-core/contracts/tokens/StableTokenPSOProxy.sol
+A	mento-core/contracts/tokens/StableTokenProxy.sol
+A	mento-core/contracts/tokens/StableTokenSpoke.sol
+A	mento-core/contracts/tokens/StableTokenV2.sol
+A	mento-core/contracts/tokens/StableTokenV3.sol
+A	mento-core/contracts/tokens/StableTokenXOFProxy.sol
+A	mento-core/contracts/tokens/StableTokenZARProxy.sol
+A	mento-core/contracts/tokens/TempStable.sol
+A	mento-core/contracts/tokens/patched/ERC20PermitUpgradeable.sol
+A	mento-core/contracts/tokens/patched/ERC20Upgradeable.sol
+A	mento-core/contracts/tokens/patched/README.md
+A	mento-core/echidna.yaml
+A	mento-core/foundry.lock
+A	mento-core/foundry.toml
+A	mento-core/img/Mento-banner.png
+A	mento-core/package.json
+A	mento-core/remappings.txt
+A	mento-core/slither.config.json
+A	mento-core/slither.db.json
+A	mento-core/test/.solhint.json
+A	mento-core/test/echidna/EchidnaFixidityLib.sol
+A	mento-core/test/fork/BancorExchangeProviderForkTest.sol
+A	mento-core/test/fork/BaseForkTest.sol
+A	mento-core/test/fork/ChainForkTest.sol
+A	mento-core/test/fork/ExchangeForkTest.sol
+A	mento-core/test/fork/ForkTests.t.sol
+A	mento-core/test/fork/GoodDollar/ExpansionForkTest.sol
+A	mento-core/test/fork/GoodDollar/GoodDollarBaseForkTest.sol
+A	mento-core/test/fork/GoodDollar/SwapForkTest.sol
+A	mento-core/test/fork/GoodDollar/TradingLimitsForkTest.sol
+A	mento-core/test/fork/README.md
+A	mento-core/test/fork/actions/OracleActions.sol
+A	mento-core/test/fork/actions/SwapActions.sol
+A	mento-core/test/fork/actions/all.sol
+A	mento-core/test/fork/assertions/CircuitBreakerAssertions.sol
+A	mento-core/test/fork/assertions/SwapAssertions.sol
+A	mento-core/test/fork/helpers/LogHelpers.sol
+A	mento-core/test/fork/helpers/OracleHelpers.sol
+A	mento-core/test/fork/helpers/SwapHelpers.sol
+A	mento-core/test/fork/helpers/TokenHelpers.sol
+A	mento-core/test/fork/helpers/TradingLimitHelpers.sol
+A	mento-core/test/fork/helpers/misc.sol
+A	mento-core/test/integration/governance/GovernanceIntegration.gas.t.sol
+A	mento-core/test/integration/governance/GovernanceIntegration.t.sol
+A	mento-core/test/integration/governance/LockingIntegration.fuzz.t.sol
+A	mento-core/test/integration/governance/Proposals.sol
+A	mento-core/test/integration/protocol/BrokerGas.md
+A	mento-core/test/integration/protocol/BrokerGas.t.sol
+A	mento-core/test/integration/protocol/BrokerIntegration.t.sol
+A	mento-core/test/integration/protocol/ChainlinkRelayerIntegration.t.sol
+A	mento-core/test/integration/protocol/CircuitBreakerIntegration.t.sol
+A	mento-core/test/integration/protocol/ConstantSumIntegration.t.sol
+A	mento-core/test/integration/protocol/FPMM/FPMMBaseIntegration.t.sol
+A	mento-core/test/integration/protocol/FPMM/FPMMFactoryTests.t.sol
+A	mento-core/test/integration/protocol/FPMM/RouterAdvancedTests.t.sol
+A	mento-core/test/integration/protocol/FPMM/RouterMathTests.t.sol
+A	mento-core/test/integration/protocol/FPMM/RouterTests.t.sol
+A	mento-core/test/integration/protocol/FPMM/RouterZapTests.t.sol
+A	mento-core/test/integration/protocol/FPMM/Upgradeability.t.sol
+A	mento-core/test/integration/protocol/ProtocolTest.sol
+A	mento-core/test/integration/protocol/VirtualPool/VirtualPoolBaseIntegration.t.sol
+A	mento-core/test/integration/protocol/VirtualPool/VirtualPoolSimpleTest.t.sol
+A	mento-core/test/integration/protocol/eXOFIntegration.t.sol
+A	mento-core/test/integration/v3/CDPFPMM.t.sol
+A	mento-core/test/integration/v3/FPMM.t.sol
+A	mento-core/test/integration/v3/FPMMDeployer.sol
+A	mento-core/test/integration/v3/FPMMTradingLimits.t.sol
+A	mento-core/test/integration/v3/Integration.t.sol
+A	mento-core/test/integration/v3/LiquidityStrategyDeployer.sol
+A	mento-core/test/integration/v3/LiquidityStrategyUpgradeability.t.sol
+A	mento-core/test/integration/v3/Liquity.t.sol
+A	mento-core/test/integration/v3/LiquityDeployer.sol
+A	mento-core/test/integration/v3/LiquityHelpers.sol
+A	mento-core/test/integration/v3/MentoV2Deployer.sol
+A	mento-core/test/integration/v3/OracleAdapter.t.sol
+A	mento-core/test/integration/v3/OracleAdapterDeployer.sol
+A	mento-core/test/integration/v3/ReserveFPMM.t.sol
+A	mento-core/test/integration/v3/TestStorage.sol
+A	mento-core/test/integration/v3/TokenDeployer.sol
+A	mento-core/test/integration/v3/VirtualPool.t.sol
+A	mento-core/test/integration/v3/VirtualPoolDeployer.sol
+A	mento-core/test/unit/goodDollar/BancorExchangeProvider.t.sol
+A	mento-core/test/unit/goodDollar/GoodDollarExchangeProvider.t.sol
+A	mento-core/test/unit/goodDollar/GoodDollarExpansionController.t.sol
+A	mento-core/test/unit/governance/Airgrab.t.sol
+A	mento-core/test/unit/governance/Emission.t.sol
+A	mento-core/test/unit/governance/GovernanceFactory.t.sol
+A	mento-core/test/unit/governance/GovernanceTest.sol
+A	mento-core/test/unit/governance/Locking/LibBrokenLine.t.sol
+A	mento-core/test/unit/governance/Locking/Locking.fuzz.t.sol
+A	mento-core/test/unit/governance/Locking/LockingTest.sol
+A	mento-core/test/unit/governance/Locking/delegateTo.t.sol
+A	mento-core/test/unit/governance/Locking/locking.t.sol
+A	mento-core/test/unit/governance/Locking/locking.upgrade.t.sol
+A	mento-core/test/unit/governance/Locking/relock.t.sol
+A	mento-core/test/unit/governance/MentoGovernor.t.sol
+A	mento-core/test/unit/governance/MentoToken.t.sol
+A	mento-core/test/unit/libraries/TradingLimits.t.sol
+A	mento-core/test/unit/libraries/TradingLimitsV2.t.sol
+A	mento-core/test/unit/liquidityStrategies/CDPLiquidityStrategy/CDPLiquidityStrategy_ActionContraction.t.sol
+A	mento-core/test/unit/liquidityStrategies/CDPLiquidityStrategy/CDPLiquidityStrategy_ActionExpansion.t.sol
+A	mento-core/test/unit/liquidityStrategies/CDPLiquidityStrategy/CDPLiquidityStrategy_Admin.t.sol
+A	mento-core/test/unit/liquidityStrategies/CDPLiquidityStrategy/CDPLiquidityStrategy_BaseTest.sol
+A	mento-core/test/unit/liquidityStrategies/CDPLiquidityStrategy/CDPLiquidityStrategy_Fuzz.t.sol
+A	mento-core/test/unit/liquidityStrategies/CDPLiquidityStrategy/CDPLiquidityStrategy_Rebalance.t.sol
+A	mento-core/test/unit/liquidityStrategies/LiquidityStrategy/LiquidityStrategy.t.sol
+A	mento-core/test/unit/liquidityStrategies/LiquidityStrategy/LiquidityStrategy_BaseTest.sol
+A	mento-core/test/unit/liquidityStrategies/LiquidityStrategyTypes/LiquidityStrategyTypes.t.sol
+A	mento-core/test/unit/liquidityStrategies/ReserveLiquidityStrategy/ReserveLiquidityStrategy_ActionBasic.t.sol
+A	mento-core/test/unit/liquidityStrategies/ReserveLiquidityStrategy/ReserveLiquidityStrategy_ActionContraction.t.sol
+A	mento-core/test/unit/liquidityStrategies/ReserveLiquidityStrategy/ReserveLiquidityStrategy_ActionEdgeCases.t.sol
+A	mento-core/test/unit/liquidityStrategies/ReserveLiquidityStrategy/ReserveLiquidityStrategy_ActionExpansion.t.sol
+A	mento-core/test/unit/liquidityStrategies/ReserveLiquidityStrategy/ReserveLiquidityStrategy_Admin.t.sol
+A	mento-core/test/unit/liquidityStrategies/ReserveLiquidityStrategy/ReserveLiquidityStrategy_BaseTest.sol
+A	mento-core/test/unit/liquidityStrategies/ReserveLiquidityStrategy/ReserveLiquidityStrategy_Hook.t.sol
+A	mento-core/test/unit/liquidityStrategies/ReserveLiquidityStrategy/ReserveLiquidityStrategy_Integration.t.sol
+A	mento-core/test/unit/liquidityStrategies/ReserveLiquidityStrategy/ReserveLiquidityStrategy_Precision.t.sol
+A	mento-core/test/unit/liquidityStrategies/ReserveLiquidityStrategy/ReserveLiquidityStrategy_Rebalance.t.sol
+A	mento-core/test/unit/oracles/BreakerBox.t.sol
+A	mento-core/test/unit/oracles/ChainlinkRelayerFactory.t.sol
+A	mento-core/test/unit/oracles/ChainlinkRelayerV1.t.sol
+A	mento-core/test/unit/oracles/OracleAdapter.t.sol
+A	mento-core/test/unit/oracles/breakers/MarketHoursBreaker.t.sol
+A	mento-core/test/unit/oracles/breakers/MedianDeltaBreaker.t.sol
+A	mento-core/test/unit/oracles/breakers/ValueDeltaBreaker.t.sol
+A	mento-core/test/unit/oracles/breakers/WithCooldown.t.sol
+A	mento-core/test/unit/oracles/breakers/WithThreshold.t.sol
+A	mento-core/test/unit/swap/BiPoolManager.t.sol
+A	mento-core/test/unit/swap/Broker.t.sol
+A	mento-core/test/unit/swap/ConstantProductPricingModule.t.sol
+A	mento-core/test/unit/swap/ConstantSumPricingModule.t.sol
+A	mento-core/test/unit/swap/FPMM/FPMMAdmin.t.sol
+A	mento-core/test/unit/swap/FPMM/FPMMBaseTest.sol
+A	mento-core/test/unit/swap/FPMM/FPMMBurn.t.sol
+A	mento-core/test/unit/swap/FPMM/FPMMFactory.t.sol
+A	mento-core/test/unit/swap/FPMM/FPMMFlashLoan.t.sol
+A	mento-core/test/unit/swap/FPMM/FPMMGetAmountOut.t.sol
+A	mento-core/test/unit/swap/FPMM/FPMMGetters.t.sol
+A	mento-core/test/unit/swap/FPMM/FPMMInitialize.t.sol
+A	mento-core/test/unit/swap/FPMM/FPMMMint.t.sol
+A	mento-core/test/unit/swap/FPMM/FPMMRebalance.t.sol
+A	mento-core/test/unit/swap/FPMM/FPMMSwap.t.sol
+A	mento-core/test/unit/swap/FPMM/helpers/ArbitrageFlashLoanReceiver.sol
+A	mento-core/test/unit/swap/FPMM/helpers/FlashLoanReceiver.sol
+A	mento-core/test/unit/swap/FPMM/helpers/MockExchange.sol
+A	mento-core/test/unit/swap/FPMM/helpers/MockLiquidityStrategy.sol
+A	mento-core/test/unit/swap/FPMM/helpers/ReentrancyExploiter.sol
+A	mento-core/test/unit/swap/FactoryRegistry.t.sol
+A	mento-core/test/unit/swap/OneToOneFPMM/OneToOneFPMMBaseTest.sol
+A	mento-core/test/unit/swap/OneToOneFPMM/OneToOneFPMMGetAmountOut.t.sol
+A	mento-core/test/unit/swap/OneToOneFPMM/OneToOneFPMMSwap.t.sol
+A	mento-core/test/unit/swap/Reserve.t.sol
+A	mento-core/test/unit/swap/ReserveV2.t.sol
+A	mento-core/test/unit/swap/VirtualPool.t.sol
+A	mento-core/test/unit/swap/VirtualPoolFactory.t.sol
+A	mento-core/test/unit/tokens/StableTokenSpoke.t.sol
+A	mento-core/test/unit/tokens/StableTokenV2.t.sol
+A	mento-core/test/unit/tokens/StableTokenV3.t.sol
+A	mento-core/test/unit/tokens/V2ToV3Upgrade.t.sol
+A	mento-core/test/utils/CreateXHelper.sol
+A	mento-core/test/utils/VmExtension.sol
+A	mento-core/test/utils/WithRegistry.sol
+A	mento-core/test/utils/harnesses/CDPLiquidityStrategyHarness.sol
+A	mento-core/test/utils/harnesses/GoodDollarExpansionControllerHarness.sol
+A	mento-core/test/utils/harnesses/GovernanceFactoryHarness.t.sol
+A	mento-core/test/utils/harnesses/ITradingLimitsHarness.sol
+A	mento-core/test/utils/harnesses/ITradingLimitsV2Harness.sol
+A	mento-core/test/utils/harnesses/IWithCooldownHarness.sol
+A	mento-core/test/utils/harnesses/IWithThresholdHarness.sol
+A	mento-core/test/utils/harnesses/LiquidityStrategyHarness.sol
+A	mento-core/test/utils/harnesses/LiquidityStrategyTypesHarness.sol
+A	mento-core/test/utils/harnesses/LockingHarness.sol
+A	mento-core/test/utils/harnesses/ReserveLiquidityStrategyHarness.sol
+A	mento-core/test/utils/harnesses/TradingLimitsHarness.sol
+A	mento-core/test/utils/harnesses/TradingLimitsV2Harness.sol
+A	mento-core/test/utils/harnesses/WithCooldownHarness.sol
+A	mento-core/test/utils/harnesses/WithThresholdHarness.sol
+A	mento-core/test/utils/mocks/FPMMAlternativeImplementation.sol
+A	mento-core/test/utils/mocks/MockAggregatorV3.sol
+A	mento-core/test/utils/mocks/MockBreaker.sol
+A	mento-core/test/utils/mocks/MockBreakerBox.sol
+A	mento-core/test/utils/mocks/MockCollateralRegistry.sol
+A	mento-core/test/utils/mocks/MockERC20.sol
+A	mento-core/test/utils/mocks/MockExchangeProvider.sol
+A	mento-core/test/utils/mocks/MockFPMM.sol
+A	mento-core/test/utils/mocks/MockLocking.sol
+A	mento-core/test/utils/mocks/MockMentoToken.sol
+A	mento-core/test/utils/mocks/MockOwnable.sol
+A	mento-core/test/utils/mocks/MockPricingModule.sol
+A	mento-core/test/utils/mocks/MockReserve.sol
+A	mento-core/test/utils/mocks/MockSortedOracles.sol
+A	mento-core/test/utils/mocks/MockStabilityPool.sol
+A	mento-core/test/utils/mocks/MockVeMento.sol
+A	mento-core/test/utils/mocks/TestERC20.sol
+A	mento-core/test/utils/mocks/USDC.sol
+A	mento-core/yarn.lock
+D	subgraph/src/CollSurplusPool.mapping.ts
+D	subgraph/src/shared/decoding.ts
