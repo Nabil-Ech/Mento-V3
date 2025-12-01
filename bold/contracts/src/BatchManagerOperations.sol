@@ -69,7 +69,7 @@ contract BatchManagerOperations is IBatchManagerOperations {
         if (_newAnnualManagementFee >= batch.annualManagementFee) {
             revert NewFeeNotLower();
         }
-
+        // i think the call to troveManager will revert
         // Lower batch fee on TM
         troveManager.onLowerBatchManagerAnnualFee(
             msg.sender,

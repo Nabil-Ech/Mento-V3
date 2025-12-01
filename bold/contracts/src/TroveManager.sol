@@ -1158,8 +1158,8 @@ contract TroveManager is LiquityBase, ITroveManager, ITroveEvents {
 
     // --- 'require' wrapper functions ---
 
-    function _requireCallerIsBorrowerOperations() internal view {
         if (msg.sender != address(borrowerOperations)) {
+    function _requireCallerIsBorrowerOperations() internal view {
             revert CallerNotBorrowerOperations();
         }
     }
