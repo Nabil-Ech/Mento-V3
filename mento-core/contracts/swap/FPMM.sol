@@ -12,6 +12,7 @@ import { MathUpgradeable as Math } from "openzeppelin-contracts-upgradeable/cont
 import { SafeERC20Upgradeable } from "openzeppelin-contracts-upgradeable/contracts/token/ERC20/utils/SafeERC20Upgradeable.sol";
 // solhint-disable-next-line max-line-length
 import { IERC20Upgradeable as IERC20 } from "openzeppelin-contracts-upgradeable/contracts/token/ERC20/IERC20Upgradeable.sol";
+
 import { IOracleAdapter } from "../interfaces/IOracleAdapter.sol";
 import { IFPMMCallee } from "../interfaces/IFPMMCallee.sol";
 import { ILiquidityStrategy } from "../interfaces/ILiquidityStrategy.sol";
@@ -338,11 +339,11 @@ contract FPMM is IRPool, IFPMM, ReentrancyGuardUpgradeable, ERC20Upgradeable, Ow
   /* ============================================================ */
   /* ====================== External Functions ================== */
   /* ============================================================ */
-
+  // i dont see the use of this
   /// @inheritdoc IFPMM
   function mint(address to) external nonReentrant returns (uint256 liquidity) {
     FPMMStorage storage $ = _getFPMMStorage();
-
+    // using balance, instead of a trakced value
     uint256 balance0 = IERC20($.token0).balanceOf(address(this));
     uint256 balance1 = IERC20($.token1).balanceOf(address(this));
 

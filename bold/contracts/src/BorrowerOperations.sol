@@ -878,6 +878,7 @@ contract BorrowerOperations is LiquityBase, AddRemoveManagers, IBorrowerOperatio
         _requireIsNotShutDown();
         _requireValidInterestBatchManager(msg.sender);
         _requireInterestRateInBatchManagerRange(msg.sender, _newAnnualInterestRate);
+
         InterestBatchManager memory interestBatchManager = interestBatchManagers[msg.sender];
         (bool success, bytes memory data) = batchManagerOperations.delegatecall(
             abi.encodeWithSignature(
