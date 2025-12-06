@@ -185,7 +185,7 @@ contract OracleAdapter is IOracleAdapter, OwnableUpgradeable {
 
     (numerator, denominator) = $.sortedOracles.medianRate(rateFeedID);
     if (numerator == 0 || denominator == 0) revert InvalidRate();
-
+    // why are we dividing by 1e6 here?
     numerator = numerator / 1e6;
     denominator = denominator / 1e6;
   }

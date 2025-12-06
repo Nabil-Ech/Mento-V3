@@ -425,12 +425,15 @@ contract FPMM is IRPool, IFPMM, ReentrancyGuardUpgradeable, ERC20Upgradeable, Ow
 
     if (amount0Out > 0) IERC20($.token0).safeTransfer(to, amount0Out);
     if (amount1Out > 0) IERC20($.token1).safeTransfer(to, amount1Out);
-
+    // before
     if (data.length > 0) IFPMMCallee(to).hook(msg.sender, amount0Out, amount1Out, data);
-
+    // after
     swapData.balance0 = IERC20($.token0).balanceOf(address(this));
     swapData.balance1 = IERC20($.token1).balanceOf(address(this));
-
+    /* 
+    comparing balances to reserves, what is here was a difference before, user can benefit from this
+    maybe calling update first
+    */
     swapData.amount0In = swapData.balance0 > $.reserve0 - amount0Out
       ? swapData.balance0 - ($.reserve0 - amount0Out)
       : 0;
@@ -439,7 +442,7 @@ contract FPMM is IRPool, IFPMM, ReentrancyGuardUpgradeable, ERC20Upgradeable, Ow
       : 0;
     // slither-disable-next-line incorrect-equality
     if (swapData.amount0In == 0 && swapData.amount1In == 0) revert InsufficientInputAmount();
-
+    // fees are debited from FPMM  not the user
     _transferProtocolFee(swapData.amount0In, swapData.amount1In);
 
     _applyTradingLimits($.token0, swapData.amount0In, swapData.amount0Out);
@@ -509,7 +512,10 @@ contract FPMM is IRPool, IFPMM, ReentrancyGuardUpgradeable, ERC20Upgradeable, Ow
     swapData.amount1In = amount1In;
 
     _update();
-
+    /*
+    no check weather newPriceDifference is smaller than initial one or withing the correct range
+    Liqudity strqtegy can make Price difference worse
+    */
     uint256 newPriceDifference = _rebalanceCheck(swapData);
     emit Rebalanced(msg.sender, swapData.initialPriceDifference, newPriceDifference);
   }
@@ -605,6 +611,7 @@ contract FPMM is IRPool, IFPMM, ReentrancyGuardUpgradeable, ERC20Upgradeable, Ow
     emit OracleAdapterUpdated(oldOracleAdapter, _oracleAdapter);
   }
 
+// I dont see why this function would exist, should be set fro each pool
   function setInvertRateFeed(bool _invertRateFeed) public onlyOwner {
     FPMMStorage storage $ = _getFPMMStorage();
 
@@ -822,7 +829,7 @@ contract FPMM is IRPool, IFPMM, ReentrancyGuardUpgradeable, ERC20Upgradeable, Ow
    */
   function _swapCheck(SwapData memory swapData) private view {
     FPMMStorage storage $ = _getFPMMStorage();
-
+    // scaled to 18 not token! decimals 
     uint256 newReserveValue = _totalValueInToken1Scaled(
       $.reserve0,
       $.reserve1,
@@ -850,13 +857,11 @@ contract FPMM is IRPool, IFPMM, ReentrancyGuardUpgradeable, ERC20Upgradeable, Ow
 
     uint256 lpFeeBps = $.lpFee;
     uint256 totalFeeBps = lpFeeBps + $.protocolFee;
-
-    uint256 fee0 = (expectedAmount0In * BASIS_POINTS_DENOMINATOR) /
-      (BASIS_POINTS_DENOMINATOR - totalFeeBps) -
-      expectedAmount0In;
-    uint256 fee1 = (expectedAmount1In * BASIS_POINTS_DENOMINATOR) /
-      (BASIS_POINTS_DENOMINATOR - totalFeeBps) -
-      expectedAmount1In;
+    // i dont understand why we do it this way
+    uint256 fee0 = (expectedAmount0In * BASIS_POINTS_DENOMINATOR) / (BASIS_POINTS_DENOMINATOR - totalFeeBps) 
+    - expectedAmount0In;
+    uint256 fee1 = (expectedAmount1In * BASIS_POINTS_DENOMINATOR) / (BASIS_POINTS_DENOMINATOR - totalFeeBps) 
+    - expectedAmount1In;
 
     fee0 = totalFeeBps > 0 ? (fee0 * lpFeeBps) / totalFeeBps : 0;
     fee1 = totalFeeBps > 0 ? (fee1 * lpFeeBps) / totalFeeBps : 0;
