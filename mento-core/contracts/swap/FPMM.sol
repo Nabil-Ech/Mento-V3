@@ -512,10 +512,7 @@ contract FPMM is IRPool, IFPMM, ReentrancyGuardUpgradeable, ERC20Upgradeable, Ow
     swapData.amount1In = amount1In;
 
     _update();
-    /*
-    no check weather newPriceDifference is smaller than initial one or withing the correct range
-    Liqudity strqtegy can make Price difference worse
-    */
+    
     uint256 newPriceDifference = _rebalanceCheck(swapData);
     emit Rebalanced(msg.sender, swapData.initialPriceDifference, newPriceDifference);
   }
@@ -795,6 +792,10 @@ contract FPMM is IRPool, IFPMM, ReentrancyGuardUpgradeable, ERC20Upgradeable, Ow
     // slither-disable-next-line incorrect-equality
     if (
       reservePriceAboveOraclePrice != swapData.reservePriceAboveOraclePrice &&
+    /*
+    I think it should be newPriceDifference > (swapData.initialPriceDifference * $.rebalanceIncentive) / BASIS_POINTS_DENOMINATOR 
+     +swapData.initialPriceDifference
+    */
       newPriceDifference > (swapData.initialPriceDifference * $.rebalanceIncentive) / BASIS_POINTS_DENOMINATOR
     ) revert PriceDifferenceMovedInWrongDirection();
 
