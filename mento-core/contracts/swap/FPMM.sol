@@ -649,6 +649,7 @@ contract FPMM is IRPool, IFPMM, ReentrancyGuardUpgradeable, ERC20Upgradeable, Ow
     config.validate();
 
     $.tradingLimits[token].config = config;
+    // reseting state, give opportunity for swap resolting in a much more trading volume then intended
     $.tradingLimits[token].state = $.tradingLimits[token].state.reset(config);
 
     emit TradingLimitConfigured(token, config);
